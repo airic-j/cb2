@@ -1,0 +1,136 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <base href="../../">
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <style>
+        html { height:100%; }
+        body { margin:20px;height:100%;overflow:hidden;font-family:Sans-Serif;font-size:17px;line-height:1.7; }
+    </style>
+</head>
+<body>
+
+    <label for="chkVariable1">
+        <input id="chkVariable1" type="checkbox" checked="checked" /> Variable 1
+    </label>
+
+    <label>Variable 2:
+        <input id="txtVariable2" class="inptext" type="text" style="width:120px;" value="Hello World" />
+    </label>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+    <script>
+        var $activeModule;
+
+        jQuery(document).ready(function ($) {
+
+            //Get current Settings (read from data-settings attribute) => see minimalist-blocks/content.js
+            /*
+            [
+                {
+                    variable1: true, 
+                    variable2: "Hello World"
+                }
+            ]
+            */
+            var settings = getSettings();
+            if (settings != 'undefined') {
+                try {
+                    var json = $.parseJSON(settings);
+                    $(json).each(function (i, val) {
+                        $.each(val, function (k, v) {
+                            //console.log(k  + ' ' + v)
+                            if (k == 'variable1') jQuery("#chkVariable1").prop("checked", v);
+                            if (k == 'variable2') jQuery("#txtVariable2").val(v);
+                        });
+                    });
+                } catch (e) { }
+            }
+
+            //Apply events
+            jQuery('#chkVariable1').on('click', function (e) {
+                constructList();
+            });
+            jQuery('#txtVariable2').on('blur', function (e) {
+                constructList();
+            });
+
+            constructList();
+
+        });
+
+        //Generate your html code here
+        function constructList() {
+
+            var html = '<h2>My Custom Module - Id: <span id="{id}">{id}</span></h2>' +
+                    '<p>' +
+                        'This is an example of a custom module.<br>' +
+                        'My variable 1: ' + jQuery("#chkVariable1").prop("checked") + '<br>' +
+                        'My variable 2: ' + jQuery("#txtVariable2").val() + 
+                    '</p>' +
+                '' +
+                '<scr' + 'ipt>' +
+                    'var docReady = function (fn) {' +
+                        'var stateCheck = setInterval(function () {' +
+                            'if (document.readyState !== "complete") return;' +
+                            'clearInterval(stateCheck);' +
+                            'try { fn() } catch (e) { }' +
+                        '}, 1);' +
+                    '};' +
+                    'docReady(function () {' +
+                        'jQuery("#{id}").css("color","red");' +
+                    '});' +
+                '</scr' + 'ipt>'
+
+            html = html.replace(/{id}/g, makeid());
+            setHtml(html);
+
+            /*
+            [
+                {
+                    variable1: true, 
+                    variable2: "Hello World"
+                }
+            ]
+            */
+            var settings = '[{"variable1":' + jQuery("#chkVariable1").prop("checked") + ',"variable2":"' + jQuery("#txtVariable2").val() + '"}]';
+            setSettings(settings);
+        }
+
+
+        /* UTILS (DO NOT CHANGE) */
+
+        function getSettings() {
+            var $activeModule = parent.jQuery("[data-module-active]"); //get active module 
+            return decodeURIComponent($activeModule.attr('data-settings'));
+        }
+
+        function setHtml(html) {
+            parent.jQuery('#hidContentModuleCode').val(html);
+        }
+
+        function setSettings(settings) {
+            parent.jQuery('#hidContentModuleSettings').val(settings);
+        }
+
+        // source: http://stackoverflow.com/questions/1349404/generate-a-string-of-5-random-characters-in-javascript
+        function makeid() {
+            var text = "";
+            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+            for (var i = 0; i < 2; i++)
+                text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+            var text2 = "";
+            var possible2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+            for (var i = 0; i < 5; i++)
+                text2 += possible2.charAt(Math.floor(Math.random() * possible2.length));
+
+            return text + text2;
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,149 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ContentBuilder.js Example - Using in Bulma framework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">  
+    <link rel="shortcut icon" href="#" /> 
+
+    <!-- Bulma -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" rel="stylesheet" type="text/css" />
+    
+    <!-- Content Blocks (customizable) -->
+    <link href="assets/minimalist-blocks/content.css" rel="stylesheet" type="text/css" />
+        
+    <!-- ContentBuilder -->
+    <link href="contentbuilder/contentbuilder.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        .container {margin: 165px auto; max-width: 800px; width:100%; padding:0 35px; box-sizing: border-box;}
+        
+        /* Page Menu */
+        .info {position:fixed;top:8px;left:30px;margin:0;font-weight:400;color:#999;text-align:left;transition: all ease 0.6s;}
+        .info2 {position:fixed;top:90px;width:210px;height:50px;border:none;bottom:auto;right:auto;left:30px;text-align:left;display:block;transition: all ease 0.6s;}
+        .info a, .examples a {text-decoration:none}
+        .examples {padding: 10px 25px;flex-direction:column;transition:none;}
+    </style>
+</head>
+<body>
+
+
+<!-- Page Menu -->
+<div class="info">
+    <a href="https://innovastudio.com/content-builder.aspx">ContentBuilder.js</a> - A generic builder for (almost) any framework<br />
+    <a id="lnkViewExamples" href="#">&#8801; More Examples</a>
+</div>
+<div class="examples is-pop" style="">
+    <a href="demo.html">Default Example</a>
+    <a href="https://innovastudio.com/builderdemo/demo-minimal.html">Minimal Mode Example</a>
+    <hr style="margin:10px 0 0px"/>
+    <a href="example1-bootstrap.html">Bootstrap Example</a>
+    <a href="example1-foundation.html">Foundation Example</a>
+    <a href="example1-foundationxy.html">Foundation (XY Grid) Example</a>
+    <a href="example1-materializecss.html">Materialize Example</a>
+    Bulma Example
+    <a href="example1-uikit.html">UIKit Example</a>
+    <a href="example1-milligram.html">Milligram Example</a>
+    <a href="example1-material.html">Material Design Lite Example</a>
+    <a href="example1-skeleton.html">Skeleton Example</a>
+    <a href="example1-w3css.html">W3.CSS Example</a>
+    <a href="example1-spectre.html">Spectre.css Example</a>
+    <a href="example1-primer.html">Primer Example</a>
+    <a href="example1-purecss.html">Pure Css Example</a>
+    <a href="example1-mustardui.html">Mustard UI Example</a>
+    <a href="example1-minicss.html">Mini.css Example</a>
+</div>
+
+
+<!-- This is just a sample content. Content can be loaded from a database. -->
+<div class="container">
+    <div class="columns">
+        <div class="column is-12">
+            <h1 class="size-46">This content layout is using Bulma grid</h1>
+            <p class="size-16"><i style="color: rgb(136, 136, 136);">Try ContentBuilder.js to edit content or change layout (add, copy, move, delete rows & columns). 
+            You can also resize columns and change columns to row or vice versa.</i></p>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column is-12">
+            <div class="spacer height-60"></div>
+        </div>
+    </div>
+
+    <div class="columns">
+        <div class="column is-6">
+            <p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Vivamus leo ante, consectetur sit amet, sit amet lectus.</p>
+        </div>
+        <div class="column is-6">
+            <p style="text-align: justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Vivamus leo ante, consectetur sit amet, sit amet lectus.</p>
+        </div>
+    </div>
+</div>
+
+<div class="info2 is-tool">
+    <button id="btnViewSnippets" class="classic" style="width:70px;height:50px;">+ Add</button>
+    <button id="btnViewHtml" class="classic" style="width:70px;height:50px;">HTML</button>
+    <button id="btnConfig" class="classic" style="width:70px;height:50px;">Config</button>
+</div>
+
+<script src="contentbuilder/jquery.min.js" type="text/javascript"></script>
+
+<!-- ContentBuilder -->
+<script src="contentbuilder/contentbuilder.min.js" type="text/javascript"></script>
+
+<!-- Optional: To enable drag & drop blocks -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="assets/minimalist-blocks/content.js" type="text/javascript"></script>
+<!-- /Optional -->
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+
+        var obj = $.contentbuilder({
+            container: '.container',
+            snippetOpen: true,
+            row: 'columns', 
+            cols: ['column is-1', 'column is-2', 'column is-3', 'column is-4', 'column is-5', 'column is-6', 'column is-7', 'column is-8', 'column is-9', 'column is-10', 'column is-11', 'column is-12'],
+        });
+
+        $('#btnViewSnippets').on('click', function () {
+            obj.viewSnippets();
+        });
+
+        $('#btnViewHtml').on('click', function () {
+            obj.viewHtml();
+        });
+
+        $('#btnConfig').on('click', function () {
+            obj.viewConfig();
+        });
+        
+
+        /* Page Menu */
+        $('#lnkViewExamples').on('click', function () {
+            var _top = $(this).offset().top + 30;
+            var _left = $(this).offset().left - 1;
+            jQuery('.examples').css('top', _top + 'px');
+            jQuery('.examples').css('left', _left + 'px');
+            jQuery('.examples').css('display', 'flex');
+            return false;
+        });
+        $(window).scroll(function () {
+            var scrolltop = $(window).scrollTop();
+            if (scrolltop > 70) {
+                $('.info').css('top', '-100px');
+                $('.info2').css('top', '18px');
+            } else {
+                $('.info').css('top', '8px');
+                $('.info2').css('top', '90px');
+            }
+        });
+
+    });
+</script>
+
+</body>
+</html>

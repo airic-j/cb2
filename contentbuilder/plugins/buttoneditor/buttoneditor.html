@@ -1,0 +1,1066 @@
+﻿<!DOCTYPE HTML>
+<html> 
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        @import url('//fonts.googleapis.com/css?family=Open+Sans:300,400,600,800'); /* default font */
+        
+        body {margin:0;overflow-x:hidden;overflow-y:auto;font-family:Open Sans,sans-serif}
+        .container {}
+        .container > div {text-align:center;font-size:24px;cursor:pointer;margin: 0;display:inline-block;float:left;width:25%;height:80px;line-height:80px;border:#eee 1px solid;box-sizing:border-box;}
+        .clearfix:before, .clearfix:after {content: " ";display: table;}
+        .clearfix:after {clear: both;}
+        .clearfix {*zoom: 1;}
+        
+        .inptext {width:90%;font-size:17px;letter-spacing:1px;border:none;padding:10px;border:rgba(127, 127, 127, 0.32) 1px solid;}
+        button {
+            width: 55px;
+            height: 50px;
+            line-height: 1;
+            display: inline-block;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            background-color: #fff;
+            color: #4a4a4a;
+            border: 1px solid transparent;
+            font-family: sans-serif;
+            letter-spacing: 1px;
+            font-size: 12px;
+            font-weight: normal;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+            border-radius: 0;
+            transition: all ease 0.3s           
+            }
+        .inptext:focus {outline:none}
+        button:focus {outline:none;}
+        
+        button.classic-primary {
+            display: inline-block;
+            width: auto;
+            height: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            min-width: 135px;
+            background: #f7f7f7;
+        }
+        button.classic-secondary {
+            display: inline-block;
+            width: auto;
+            height: 50px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background: transparent;
+        }
+        select {
+            font-size: 14px;
+            letter-spacing: 1px;
+            height: 50px;
+            line-height: 1.7;
+            color: #454545;
+            border-radius: 0;
+            border: none;
+            background-color: #eee;
+            width: auto;
+            display: inline-block;
+            background-image: none;
+            -webkit-appearance: menulist;
+            -moz-appearance: menulist;
+            appearance: menulist;
+            padding: 0 5px;
+        }
+        select:focus {outline:none}
+        
+        /*
+            Tabs
+        */
+        .is-tabs.simple  {
+            white-space:nowrap;
+            padding:20px;padding-bottom:5px;padding-top: 10px;
+            box-sizing:border-box;
+            font-family: sans-serif;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 2px;  
+            background:#f9f9f9;
+        }
+        .is-tabs.simple a {
+            display: inline-block;
+            float:left;
+            padding: 3px 3px 0;
+            color: #4a4a4a;
+            border-bottom: transparent 1px solid;
+            
+            margin: 0 16px 16px 0;
+            text-decoration: none;
+            transition: box-shadow ease 0.3s;
+        }
+        .is-tabs.simple a:hover {
+
+        }
+        .is-tabs.simple a.active {
+            background: transparent;
+            box-shadow: none;
+            cursor:default;
+            border-bottom: rgba(103, 103, 103, 0.72) 1px solid;
+        }
+        .is-tab-content.simple {display:none;padding:20px;}
+
+        /* Overide */
+        .is-tabs.simple {border-bottom:#ececec 1px solid;padding-bottom:15px;}
+        .is-tabs.simple a {margin: 0 16px 0 0;line-height:1.8}
+        .is-tab-content {
+            border:none;
+            padding:20px;
+            box-sizing:border-box;
+            display:none;
+            height: 100%;
+            position: absolute;
+            width: 100%;
+            box-sizing: border-box;
+            border-top: 50px solid transparent;
+            top: 0px;
+        }
+        
+        
+        .is-button-remove {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            width: 20px;
+            height: 20px;
+            background: rgba(95, 94, 94, 0.26);
+            color: #fff;
+            line-height: 20px;
+            text-align: center;
+            font-size: 12px;
+            cursor: pointer;
+            display:none;
+        }
+        #divMyButtonList {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px;
+            border-top: transparent 90px solid;
+            box-sizing: border-box;
+            overflow: hidden;
+            overflow-y: auto;
+        }
+        #divMyButtonList a {position:relative}
+        #divMyButtonList a.active .is-button-remove {display:block;}
+        #divButtonTemplates {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+            overflow-y: auto;
+        }
+        
+        /* Templates */
+        #divMyButtonList > a, #divButtonTemplates > a {
+            margin: 0px 13px 15px 0;
+            padding: 10px 50px;
+            font-size: 1rem;
+            line-height: 2rem;
+            border-radius: 0;
+            letter-spacing: 3px;
+            display: inline-block;
+            font-weight: normal;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            background-image: none;
+            border: 1px solid transparent;
+            white-space: nowrap;
+            -webkit-transition: all 0.16s ease;
+            transition: all 0.16s ease;
+            text-decoration:none;
+            color: #000;
+        }        
+    </style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute;display:none;">
+    <defs>'
+        <symbol viewBox="0 0 512 512" id="ion-ios-close-empty"><path d="M340.2 160l-84.4 84.3-84-83.9-11.8 11.8 84 83.8-84 83.9 11.8 11.7 84-83.8 84.4 84.2 11.8-11.7-84.4-84.3 84.4-84.2z"></path></symbol>               
+        <symbol viewBox="0 0 512 512" id="ion-contrast"><path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224 224-100.3 224-224S379.7 32 256 32zm135.8 359.8C355.5 428 307 448 256 448V64c51 0 99.5 20 135.8 56.2C428 156.5 448 204.7 448 256c0 51.3-20 99.5-56.2 135.8z"></path></symbol>
+    </defs>
+ </svg>
+
+<div class="is-tabs simple clearfix" data-group="button" style="position: absolute;top: 0;height: 51px;width: 100%;z-index: 1;">
+    <a title="Default" href="" data-content="divButtonDefault" class="active">Default</a>
+    <a title="Hover" href="" data-content="divButtonHover">Hover</a>
+    <a title="Saved Buttons" href="" data-content="divMyButtons">Saved</a>
+    <a title="Templates" href="" data-content="divTemplates">Templates</a>
+</div>
+<div id="divButtonDefault" class="is-tab-content" data-group="button" style="display:block">
+
+    <div style="display:flex;margin:10px 0 0">
+        <div style="width:160px">
+            Background Color:
+            <div class="button-bgcolor" style="margin-top:10px;height:50px;"></div>
+        </div>
+        <div>
+            Text Color:<br />
+            <div class="button-textcolor" style="margin-top:10px;height:50px;"></div>
+        </div>
+    </div>
+
+    <div style="display:flex;margin:15px 0 0">
+        <div style="width:160px">
+            <div style="display:flex;align-items: center;height: 35px;">
+                Border:
+            </div>
+            <select id="inpBorderWidth" style="margin-top:0px">
+                <option value="">Default</option>
+                <option value="none">No Border</option>
+                <option value="1px">1px</option>
+                <option value="2px">2px</option>
+                <option value="3px">3px</option>
+                <option value="4px">4px</option>
+            </select>
+        </div>
+        <div style="width:170px">
+            <div style="display:flex;align-items: center;height: 35px;">
+                <span>Border Color:</span>&nbsp;
+            </div>
+            <div class="button-bordercolor" style="margin-top:1px"></div>
+            <button class="classic-primary same-as-bg" style="min-width:40px;margin:0;font-size:11px;height:30px;padding:0 3px;text-transform:none;">Same as bg color</button>
+        </div>
+        <div>
+            <div style="display:flex;align-items: center;height: 35px;">
+                Border Radius:
+            </div>
+            <button class="classic-primary border-radius-dec" style="min-width:55px;font-size:18px;margin-top:0px;float:left">-</button>
+            <button class="classic-primary border-radius-inc" style="min-width:55px;font-size:18px;margin-top:0px;">+</button>
+        </div>
+    </div>
+    <div style="display:flex;margin:5px 0 25px">
+        <div style="">
+            Button Size: <br />
+            <button class="classic-primary size-xxs" style="min-width:55px;margin-top:10px;">xxs</button>
+            <button class="classic-primary size-xs" style="min-width:55px;margin-top:10px;">xs</button>
+            <button class="classic-primary size-s" style="min-width:55px;margin-top:10px;">s</button>
+            <button class="classic-primary size-m" style="min-width:55px;margin-top:10px;">m</button>
+            <button class="classic-primary size-l" style="min-width:55px;margin-top:10px;">l</button>
+            <button class="classic-primary size-xl" style="min-width:55px;margin-top:10px;">xl</button>
+            <button class="classic-primary size-xxl" style="min-width:55px;margin-top:10px;">xxl</button>
+        </div>
+    </div>
+    <div style="display:flex;margin:20px 0 25px">
+        <div style="width:145px">
+            Font Size: <br />
+            <button class="classic-primary font-size-dec" style="min-width:55px;font-size:18px;margin-top:10px;float:left">-</button>
+            <button class="classic-primary font-size-inc" style="min-width:55px;font-size:18px;margin-top:10px;">+</button>
+        </div>
+        <div style="width:150px">
+            Letter Spacing: <br />
+            <button class="classic-primary letter-spacing-dec" style="min-width:55px;font-size:18px;margin-top:10px;float:left">-</button>
+            <button class="classic-primary letter-spacing-inc" style="min-width:55px;font-size:18px;margin-top:10px;">+</button>
+        </div>
+        <div style="width:120px">
+            Upper/lower: <br />
+            <button title="Upper/Lower Case" class="classic-primary textcase" style="margin-top:10px;min-width:55px;font-family: serif;font-size: 14px;text-transform: initial;">Aa</button>
+        </div>
+        <div style="width:110px">
+            Weight: <br />
+            <select id="inpFontWeight" style="margin-top:10px">
+                <option value=""></option>
+                <option value="100">100</option>
+                <option value="200">200</option>
+                <option value="300">300</option>
+                <option value="400">400</option>
+                <option value="500">500</option>
+                <option value="600">600</option>
+                <option value="700">700</option>
+                <option value="800">800</option>
+                <option value="900">900</option>
+                <option value="bold">Bold</option>
+                <option value="normal">Normal</option>
+            </select>
+
+            <!--<button title="Bold" class="classic-primary fontweight" style="min-width:55px;margin-top:10px;font-family: serif;font-size: 14px;text-transform: initial;">B</button>-->
+        </div>
+    </div>
+    
+    <div style="display:flex;margin:15px 0 0">
+        <button class="input-clear classic-primary">Clear</button>
+    </div>
+
+</div>
+<div id="divButtonHover" class="is-tab-content" data-group="button">
+
+    <div style="display:flex;margin:10px 0 0">
+        <div style="width:160px">
+            Background Color:
+            <div class="buttonhover-bgcolor" style="margin-top:10px"></div>
+        </div>
+        <div>
+            Text Color:<br />
+            <div class="buttonhover-textcolor" style="margin-top:10px"></div>
+        </div>
+    </div>
+
+    <div style="display:flex;margin:15px 0 25px">
+        <div>
+            <div style="display:flex;align-items: center;height: 35px;">
+                <span>Border Color:</span>&nbsp;
+            </div>
+            <div class="buttonhover-bordercolor" style="margin-top:0px"></div>
+            <button class="classic-primary same-as-hoverbg" style="min-width:40px;margin:0;font-size:11px;height:30px;padding:0 3px;text-transform:none;">Same as bg color</button>
+        </div>
+    </div>
+    
+    <div style="display:flex;margin:15px 0 0">
+        <button class="input-clearhover classic-primary">Clear</button>
+    </div>
+
+</div>
+<div id="divMyButtons" class="is-tab-content" data-group="button" style="padding:0;">
+
+    <div style="height:90px;padding:20px;box-sizing:border-box;position:absolute;top:0;left:0;z-index:1">
+        <button class="input-save classic-primary">Save Current Button</button>
+    </div>
+    <div id="divMyButtonList" style="padding:1px 20px 10px;"></div>
+
+</div>
+<div id="divTemplates" class="is-tab-content" data-group="button" style="padding:0">
+
+    <div id="divButtonTemplates" style=""></div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+
+    jQuery(document).ready(function () {
+
+        jQuery('#divButtonTemplates').html('');
+        var general = '<a style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: rgb(23, 23, 23); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 3-->' +
+            '<a style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgb(220, 220, 220); color: rgb(0, 0, 0); border-color: rgb(220, 220, 220); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 24-->' +
+            '<a style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: rgb(188, 188, 188); border-color: rgb(188, 188, 188); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 25-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="rgb(23, 23, 23)" data-hover-color="#ffffff" data-hover-bordercolor="rgb(23, 23, 23)" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: rgb(23, 23, 23); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 3px;">Button</a><!-- Button 20 -->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="rgb(225, 225, 225)" data-hover-color="#000000" data-hover-bordercolor="rgb(225, 225, 225)" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgb(220, 220, 220); color: rgb(0, 0, 0); border-color: rgb(220, 220, 220); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 23-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#ffffff" data-hover-color="#000000" data-hover-bordercolor="#616161" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: rgb(158, 158, 158); border-width: 2px; border-color: rgb(188, 188, 188); border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a>';
+
+        jQuery('#divButtonTemplates').append(general);
+        jQuery('#divButtonTemplates').append('<img src="images/a.jpg" style="margin:10px 0 20px -20px;width:109%"/>');
+        jQuery('#divButtonTemplates').append(generateButtons('#8ea1ff'));
+        jQuery('#divButtonTemplates').append('<img src="images/b.jpg" style="margin:10px 0 20px -20px;width:109%"/>');
+        jQuery('#divButtonTemplates').append(generateButtons());
+        jQuery('#divButtonTemplates').append('<img src="images/c.jpg" style="margin:10px 0 20px -20px;width:109%"/>');
+        jQuery('#divButtonTemplates').append(generateButtons('#ff8733'))
+        jQuery('#divButtonTemplates').append('<img src="images/d.jpg" style="margin:10px 0 20px -20px;width:109%"/>');
+        jQuery('#divButtonTemplates').append(generateButtons('#ffca18')); ;
+        jQuery('#divButtonTemplates').append('<img src="images/e.jpg" style="margin:10px 0 20px -20px;width:109%"/>');
+        jQuery('#divButtonTemplates').append(generateButtons('#ec4130'));
+        jQuery('#divButtonTemplates').append('<img src="images/f.jpg" style="margin:10px 0 20px -20px;width:109%"/>');
+        jQuery('#divButtonTemplates').append(generateButtons('#07d2c0'));
+        jQuery('#divButtonTemplates').append('<img src="images/g.jpg" style="margin:10px 0 20px -20px;width:109%"/>');
+        jQuery('#divButtonTemplates').append(generateButtons('#07d1ff'));
+        jQuery('#divButtonTemplates').append('<img src="images/h.jpg" style="margin:10px 0 20px -20px;width:109%"/>');
+        jQuery('#divButtonTemplates').append(generateButtons('#ff4c8e'));
+        jQuery('.is-tabs').simpletabs();
+
+        var $link = parent.jQuery("#divLinkTool").data('active');
+        if (parent._cb.settings.emailMode) {
+            $link = $link.parents('td').first();
+            $link.find('a').first().attr('style', 'color:inherit !important; font-weight: inherit !important; font-size: inherit !important');
+        }
+
+        //background color
+        var bgcolor = $link.css('background-color');
+        jQuery('.button-bgcolor').colorpicker({
+            color: bgcolor,
+            onPick: function (color) {
+                $link.css('background-color', color);
+            }
+        });
+
+        //text color
+        var textcolor = $link.css('color');
+        jQuery('.button-textcolor').colorpicker({
+            color: textcolor,
+            onPick: function (color) {
+                $link.css('color', color);
+            }
+        });
+
+        //border color
+        var bordercolor = $link.css('border-color');
+        jQuery('.button-bordercolor').colorpicker({
+            color: bordercolor,
+            onPick: function (color) {
+                $link.css('border-color', color);
+            }
+        });
+
+        //border width
+        var currBw = $link.css('border-width');
+        if (currBw == '' || currBw == '1px' || currBw == '2px' || currBw == '3px') jQuery('#inpBorderWidth').val(currBw);
+        if ($link.get(0).style.border == 'none' || $link.css('border') == 'none') jQuery('#inpBorderWidth').val('none');
+        jQuery('#inpBorderWidth').on('change', function () {
+
+            var bw = jQuery('#inpBorderWidth').val();
+            if (bw == 'none') {
+                $link.css('border', 'none');
+            } else {
+
+                var color = jQuery('.button-bordercolor').data('colorpicker').color();
+                if (color == '') {
+                    jQuery('.button-bordercolor').data('colorpicker').setColor('#000')
+                }
+                $link.css('border-width', bw);
+                $link.css('border-color', color);
+                $link.css('border-style', 'solid');
+            }
+        });
+
+        //border radius
+        jQuery('.border-radius-dec').on('click', function () {
+            var borderradius = $link.css('border-radius');
+            if(borderradius=='') borderradius = $link.get(0).style.borderRadius;
+            var currBrad = borderradius;
+            if (currBrad == '') currBrad = '0px';
+            var n = parseInt(currBrad);
+            n = n - 2;
+            if (n <= 0) n = 0;
+            $link.css('border-radius', n + 'px');
+        });
+        jQuery('.border-radius-inc').on('click', function () {
+            var borderradius = $link.css('border-radius');
+            if(borderradius=='') borderradius = $link.get(0).style.borderRadius;
+            var currBrad = borderradius;
+            if (currBrad == '') currBrad = '0px';
+            var n = parseInt(currBrad);
+            n = n + 2;
+            $link.css('border-radius', n + 'px');
+        });
+
+        //sizes
+        jQuery('.size-xxs').on('click', function () {
+            $link.css('padding', '6px 12px');
+            $link.css('font-size', '8px');
+            $link.css('line-height', '1.5');
+        });
+        jQuery('.size-xs').on('click', function () {
+            $link.css('padding', '8px 17px');
+            $link.css('font-size', '10px');
+            $link.css('line-height', '1.5');
+        });
+        jQuery('.size-s').on('click', function () {
+            $link.css('padding', '10px 22px');
+            $link.css('font-size', '12px');
+            $link.css('line-height', '1.5');
+        });
+        jQuery('.size-m').on('click', function () {
+            $link.css('padding', '13px 28px');
+            $link.css('font-size', '14px');
+            $link.css('line-height', '1.5');
+        });
+        jQuery('.size-l').on('click', function () {
+            $link.css('padding', '16px 35px');
+            $link.css('font-size', '16px');
+            $link.css('line-height', '1.5');
+        });
+        jQuery('.size-xl').on('click', function () {
+            $link.css('padding', '19px 42px');
+            $link.css('font-size', '18px');
+            $link.css('line-height', '1.5');
+        });
+        jQuery('.size-xxl').on('click', function () {
+            $link.css('padding', '22px 50px');
+            $link.css('font-size', '20px');
+            $link.css('line-height', '1.5');
+        });
+
+        //text case
+        jQuery('.textcase').on('click', function () {
+            var tt = $link.css('text-transform');
+            if (tt == 'uppercase') {
+                $link.css('text-transform', 'initial');
+            } else {
+                $link.css('text-transform', 'uppercase');
+            }
+        });
+
+        //font weight
+        var fw = $link.css('font-weight');
+        jQuery('#inpFontWeight').val(fw);
+        jQuery('#inpFontWeight').on('change', function () {
+            var fw = jQuery('#inpFontWeight').val();
+            $link.css('font-weight', fw);
+        });
+        /*
+        jQuery('.fontweight').on('click', function () {
+        var fw = $link.css('font-weight');
+        if (fw == 'bold' || parseInt(fw) >= 600) {
+        $link.css('font-weight', 'normal');
+        } else {
+        $link.css('font-weight', 'bold');
+        }
+        });*/
+
+        //font size
+        jQuery('.font-size-dec').on('click', function () {
+            var currFs = $link.css('font-size');
+            var n = parseInt(currFs);
+            n = n - 1;
+            if (n <= 8) n = 8;
+            $link.css('font-size', n + 'px');
+        });
+        jQuery('.font-size-inc').on('click', function () {
+            var currFs = $link.css('font-size');
+            var n = parseInt(currFs);
+            n = n + 1;
+            $link.css('font-size', n + 'px');
+        });
+
+        //letter spacing
+        jQuery('.letter-spacing-dec').on('click', function () {
+            var currLs = $link.css('letter-spacing');
+            var n = parseInt(currLs);
+            n = n - 1;
+            if (n <= 0) n = 0;
+            $link.css('letter-spacing', n + 'px');
+        });
+        jQuery('.letter-spacing-inc').on('click', function () {
+            var currLs = $link.css('letter-spacing');
+            var n = parseInt(currLs);
+            n = n + 1;
+            $link.css('letter-spacing', n + 'px');
+        });
+
+        //make = bg color
+        jQuery('.same-as-bg').on('click', function () {
+            var bgcolor = jQuery('.button-bgcolor').data('colorpicker').color();
+            jQuery('.button-bordercolor').data('colorpicker').setColor(bgcolor);
+
+            $link.css('border-color', bgcolor);
+        });
+
+        //clear
+        jQuery('.input-clear').on('click', function () {
+
+            $link.attr('style', '');
+            jQuery('#inpBorderWidth').val('');
+            jQuery('.button-bgcolor').data('colorpicker').setColor('');
+            jQuery('.button-textcolor').data('colorpicker').setColor('');
+            jQuery('.button-bordercolor').data('colorpicker').setColor('');
+
+        });
+
+        //hover background color
+        jQuery('.buttonhover-bgcolor').colorpicker({
+            color: $link.attr('data-hover-bgcolor'),
+            onPick: function (color) {
+                $link.attr('data-hover-bgcolor', color);
+                addButtonScript($link);
+            }
+        });
+
+        //hover text color
+        jQuery('.buttonhover-textcolor').colorpicker({
+            color: $link.attr('data-hover-color'),
+            onPick: function (color) {
+                $link.attr('data-hover-color', color);
+                addButtonScript($link);
+            }
+        });
+
+        //hover border color
+        jQuery('.buttonhover-bordercolor').colorpicker({
+            color: $link.attr('data-hover-bordercolor'),
+            onPick: function (color) {
+                $link.attr('data-hover-bordercolor', color);
+                addButtonScript($link);
+            }
+        });
+
+        //make = hover bg color
+        jQuery('.same-as-hoverbg').on('click', function () {
+            var hoverbgcolor = jQuery('.buttonhover-bgcolor').data('colorpicker').color();
+            jQuery('.buttonhover-bordercolor').data('colorpicker').setColor(hoverbgcolor);
+
+            $link.attr('data-hover-bordercolor', hoverbgcolor);
+        });
+
+        //clear hover
+        jQuery('.input-clearhover').on('click', function () {
+
+            jQuery('.buttonhover-bgcolor').data('colorpicker').setColor('');
+            jQuery('.buttonhover-textcolor').data('colorpicker').setColor('');
+            jQuery('.buttonhover-bordercolor').data('colorpicker').setColor('');
+
+            $link.get(0).removeAttribute('data-hover-bgcolor');
+            $link.get(0).removeAttribute('data-hover-color');
+            $link.get(0).removeAttribute('data-hover-bordercolor');
+
+            $link.get(0).removeAttribute('onmouseover');
+            $link.get(0).removeAttribute('onmouseout');
+        });
+
+
+        if (localStorage.getItem("_mybuttons") != null) {
+
+            renderMyButtons();
+
+            jQuery('#divMyButtonList > a').on('click', function () {
+                jQuery('#divMyButtonList .active').removeClass('active');
+                jQuery(this).addClass('active');
+
+                applyStyles($link, jQuery(this));
+
+                updateSettings($link);
+
+                cleanupClasses($link);
+
+            });
+
+            jQuery('.is-button-remove').on('click', function () {
+
+                if (localStorage.getItem("_mybuttons") != null) {
+                    var mybuttons = JSON.parse(localStorage.getItem("_mybuttons"));
+
+                    var id = jQuery(this).parents('a').attr('data-id');
+                    for (var i = 0; i < mybuttons.length; i++) {
+                        if (i == id) {
+                            mybuttons.splice(i, 1);
+
+                            localStorage.setItem("_mybuttons", JSON.stringify(mybuttons));
+
+                            jQuery(this).parent().remove();
+
+                            var n = 0;
+                            jQuery('#divMyButtonList').children('a').each(function () {
+                                jQuery(this).attr('data-id', n);
+                                n = n + 1;
+                            });
+
+                            return;
+                        }
+                    }
+
+                }
+
+            });
+
+        }
+
+        //save button
+        jQuery('.input-save').on('click', function () {
+            var bgcolor = jQuery('.button-bgcolor').data('colorpicker').color();
+            if (bgcolor != '') {
+                bgcolor = 'background-color:' + bgcolor + ';';
+            } else {
+                bgcolor = '';
+            }
+            var textcolor = jQuery('.button-textcolor').data('colorpicker').color();
+            if (textcolor != '') {
+                textcolor = 'color:' + textcolor + ';';
+            } else {
+                textcolor = '';
+            }
+            var borderwidth = jQuery('#inpBorderWidth').val();
+            var border = '';
+            if (borderwidth == 'none') {
+                border = 'border:none;';
+            } else {
+                var bordercolor = jQuery('.button-bordercolor').data('colorpicker').color();
+                if (bordercolor != '') {
+                    bordercolor = 'border-color:' + bordercolor + ';';
+                } else {
+                    bordercolor = '';
+                }
+                border = 'border-width:' + borderwidth + ';' + bordercolor;
+            }
+            var borderradius = $link.css('border-radius');
+            if (borderradius == '') {
+                borderradius = 'border-radius:0px;';
+            } else {
+                borderradius = 'border-radius:' + borderradius + ';';
+            }
+            var padding = $link.css('padding');
+            var lineheight = $link.css('line-height');
+            var texttransform = $link.css('text-transform');
+            var fontweight = $link.css('font-weight');
+            var fontsize = $link.css('font-size');
+            var letterspacing = $link.css('letter-spacing');
+
+            //var css = bgcolor + textcolor + border + borderradius + 'padding:' + padding + ';line-height:' + lineheight + ';text-transform:' + texttransform + ';font-weight:' + fontweight + ';font-size:' + fontsize + ';letter-spacing:' + letterspacing + ' ;';
+            var css = $link.attr('style');
+
+            var mybuttons = [];
+            if (localStorage.getItem("_mybuttons") != null) {
+                var mybuttons = JSON.parse(localStorage.getItem("_mybuttons"));
+            }
+            mybuttons.push([
+                bgcolor + '|' +
+                css + '|' +
+                ($link.attr('data-hover-bgcolor') ? $link.attr('data-hover-bgcolor') : '') + '|' +
+                ($link.attr('data-hover-color') ? $link.attr('data-hover-color') : '') + '|' +
+                ($link.attr('data-hover-bordercolor') ? $link.attr('data-hover-bordercolor') : '')
+            ]);
+            localStorage.setItem("_mybuttons", JSON.stringify(mybuttons));
+
+            renderMyButtons();
+
+            jQuery('#divMyButtonList > a').on('click', function () {
+                jQuery('#divMyButtonList .active').removeClass('active');
+                jQuery(this).addClass('active');
+
+                applyStyles($link, jQuery(this));
+
+                updateSettings($link);
+
+                cleanupClasses($link);
+
+            });
+
+            jQuery('.is-button-remove').on('click', function () {
+
+                if (localStorage.getItem("_mybuttons") != null) {
+                    var mybuttons = JSON.parse(localStorage.getItem("_mybuttons"));
+
+                    var id = jQuery(this).parents('a').attr('data-id');
+                    for (var i = 0; i < mybuttons.length; i++) {
+                        if (i == id) {
+                            mybuttons.splice(i, 1);
+
+                            localStorage.setItem("_mybuttons", JSON.stringify(mybuttons));
+
+                            jQuery(this).parent().remove();
+
+                            var n = 0;
+                            jQuery('#divMyButtonList').children('a').each(function () {
+                                jQuery(this).attr('data-id', n);
+                                n = n + 1;
+                            });
+
+                            return;
+                        }
+                    }
+
+                }
+
+            });
+
+        });
+
+        jQuery('#divButtonTemplates a').on('click', function () {
+
+            applyStyles($link, jQuery(this));
+
+            updateSettings($link);
+
+            cleanupClasses($link);
+
+        });
+
+    });
+
+    function generateButtons(base) {
+        var template = '' +
+            '<a style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: #34dd87; border-color: #34dd87; border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 18-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#34dd87" data-hover-color="#f8f8f8" data-hover-bordercolor="#34dd87" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: #34dd87; border-color: #34dd87; border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 4-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#34dd87" data-hover-color="#ffffff" data-hover-bordercolor="#34dd87" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: rgb(23, 23, 23); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 19-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#34dd87" data-hover-color="#f8f8f8" data-hover-bordercolor="#34dd87" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgb(220, 220, 220); color: rgb(0, 0, 0); border-color: rgb(220, 220, 220); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 22-->' +
+        /*'<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#34dd87" data-hover-color="#f8f8f8" data-hover-bordercolor="#34dd87" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: rgb(188, 188, 188); border-color: rgb(188, 188, 188); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 9-->' +*/
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="" data-hover-color="#000000" data-hover-bordercolor="#000000" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: #34dd87; border-color: #34dd87; border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 12-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#ffffff" data-hover-color="#34dd87" data-hover-bordercolor="#34dd87" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: rgb(0, 0, 0); border-color: rgb(17, 17, 17); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 17-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="" data-hover-color="#34dd87" data-hover-bordercolor="#34dd87" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgba(0, 0, 0, 0); color: rgb(158, 158, 158); border-color: rgb(188, 188, 188); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 10-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#3dea92" data-hover-color="#ffffff" data-hover-bordercolor="#3dea92" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: #34dd87; color: rgb(248, 248, 248); border-color: #34dd87; border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 5-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#2fd07e" data-hover-color="#ffffff" data-hover-bordercolor="#2fd07e" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: #34dd87; color: rgb(255, 255, 255); border-color: #34dd87; border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 400; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 8-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#000000" data-hover-color="#f8f8f8" data-hover-bordercolor="#000000" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: #34dd87; color: rgb(23, 23, 23); border-color: #34dd87; border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 11-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#34dd87" data-hover-color="#ffffff" data-hover-bordercolor="#34dd87" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgb(23, 23, 23); color: #34dd87; border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 14-->' +
+            '<a onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" data-hover-bgcolor="#34dd87" data-hover-color="#ffffff" data-hover-bordercolor="#34dd87" style="display:inline-block;text-decoration:none;transition: all 0.16s ease;border-style:solid;cursor:pointer;background-color: rgb(23, 23, 23); color: rgb(255, 255, 255); border-color: rgb(23, 23, 23); border-width: 2px; border-radius: 0px; padding: 13px 28px; line-height: 21px; text-transform: uppercase; font-weight: 600; font-size: 14px; letter-spacing: 3px;">Button</a><!--Button 16-->';
+        if (!base) return template;
+        var html = '';
+        html = template.replace(new RegExp('#34dd87', 'g'), base);
+        var hover1 = parent._cb.LightenDarkenColor(base, 15);
+        var hover2 = parent._cb.LightenDarkenColor(base, -20);
+        html = html.replace(new RegExp('#3dea92', 'g'), hover1);
+        html = html.replace(new RegExp('#2fd07e', 'g'), hover2);
+        return html;
+    }
+
+    function renderMyButtons() {
+        var mybuttons = JSON.parse(localStorage.getItem("_mybuttons"));
+
+        var html_mybuttons = '';
+        for (var i = 0; i < mybuttons.length; i++) {
+
+            var s = mybuttons[i] + '';
+            var bg = s.split('|')[0]; //not used
+            var css = s.split('|')[1];
+
+            var onmouse = 'onmouseover="this.setAttribute(\'data-style\',this.style.cssText);if(this.getAttribute(\'data-hover-bordercolor\')) this.style.borderColor=this.getAttribute(\'data-hover-bordercolor\');if(this.getAttribute(\'data-hover-bgcolor\')) this.style.backgroundColor=this.getAttribute(\'data-hover-bgcolor\');if(this.getAttribute(\'data-hover-color\')) this.style.color=this.getAttribute(\'data-hover-color\');" ' +
+                    'onmouseout="this.setAttribute(\'style\',this.getAttribute(\'data-style\'));this.removeAttribute(\'data-style\')" ';
+            if (s.split('|')[2] == '' && s.split('|')[3] == '' && s.split('|')[4] == '') {
+                onmouse = '';
+            }
+            var datahoverbgcolor = '';
+            if (s.split('|')[2] != '') {
+                datahoverbgcolor = 'data-hover-bgcolor="' + s.split('|')[2] + '" ';
+            }
+            var datahovercolor = '';
+            if (s.split('|')[3] != '') {
+                datahovercolor = 'data-hover-color="' + s.split('|')[3] + '" ';
+            }
+            var datahoverbordercolor = '';
+            if (s.split('|')[4] != '') {
+                datahoverbordercolor = 'data-hover-bordercolor="' + s.split('|')[4] + '" ';
+            }
+
+            html_mybuttons += '<a ' +
+                    'data-id="' + i + '" ' +
+                    onmouse +
+                    datahoverbgcolor +
+                    datahovercolor +
+                    datahoverbordercolor +
+                    'data-style="' + css + '" ' +
+                    'style="' + css + '">Button<div class="is-button-remove"><svg class="is-icon-flex" style="fill:rgba(255, 255, 266, 1);width:20px;height:20px;"><use xlink:href="#ion-ios-close-empty"></use></svg></div></a>';
+
+        }
+
+        jQuery('#divMyButtonList').html(html_mybuttons);
+    }
+
+    function applyStyles($link, $button) {
+        if ($button.data('style')) {
+            $link.attr('style', $button.data('style'));
+        } else {
+            $link.attr('style', $button.attr('style'));
+        }
+        if ($button.attr('data-hover-bgcolor')) {
+            $link.attr('data-hover-bgcolor', $button.attr('data-hover-bgcolor'));
+        } else {
+            $link.removeAttr('data-hover-bgcolor');
+        }
+        if ($button.attr('data-hover-color')) {
+            $link.attr('data-hover-color', $button.attr('data-hover-color'));
+        } else {
+            $link.removeAttr('data-hover-color');
+        }
+        if ($button.attr('data-hover-bordercolor')) {
+            $link.attr('data-hover-bordercolor', $button.attr('data-hover-bordercolor'));
+        } else {
+            $link.removeAttr('data-hover-bordercolor');
+        }
+        if ($button.attr('onmouseover')) {
+            $link.attr("onmouseover", "this.setAttribute('data-style',this.style.cssText);if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');");
+        } else {
+            $link.removeAttr('onmouseover');
+        }
+        if ($button.attr('onmouseout')) {
+            $link.attr("onmouseout", "this.setAttribute('style',this.getAttribute('data-style'));this.removeAttribute('data-style')");
+        } else {
+            $link.removeAttr('onmouseout');
+        }
+    }
+
+    function updateSettings($link) {
+        setTimeout(function () {
+            jQuery('.button-bgcolor').data('colorpicker').setColor($link.css('background-color'));
+            jQuery('.button-textcolor').data('colorpicker').setColor($link.css('color'));
+            jQuery('.button-bordercolor').data('colorpicker').setColor($link.css('border-color'));
+
+            var currBw = $link.css('border-width');
+            if (currBw == '' || currBw == '1px' || currBw == '2px' || currBw == '3px') jQuery('#inpBorderWidth').val(currBw);
+            if ($link.get(0).style.border == 'none' || $link.css('border') == 'none') jQuery('#inpBorderWidth').val('none');
+
+            jQuery('.buttonhover-bgcolor').data('colorpicker').setColor($link.attr('data-hover-bgcolor'));
+            jQuery('.buttonhover-textcolor').data('colorpicker').setColor($link.attr('data-hover-color'));
+            jQuery('.buttonhover-bordercolor').data('colorpicker').setColor($link.attr('data-hover-bordercolor'));
+        }, 300);
+    }
+
+    function cleanupClasses($link) {
+        $link.removeClass('is-btn-ghost1');
+        $link.removeClass('is-btn-ghost2');
+        $link.removeClass('is-upper');
+        $link.removeClass('is-btn-small');
+        $link.removeClass('is-rounded-30');
+        $link.removeClass('btn');
+        $link.removeClass('btn-primary');
+        $link.removeClass('btn-default');   
+    }
+
+    function addButtonScript($link) {
+        $link.attr("onmouseover", "this.setAttribute('data-style',this.style.cssText);" +
+            "if(this.getAttribute('data-hover-bordercolor')) this.style.borderColor=this.getAttribute('data-hover-bordercolor');" +
+            "if(this.getAttribute('data-hover-bgcolor')) this.style.backgroundColor=this.getAttribute('data-hover-bgcolor');" +
+            "if(this.getAttribute('data-hover-color')) this.style.color=this.getAttribute('data-hover-color');");
+
+        $link.attr("onmouseout", "this.setAttribute('style',this.getAttribute('data-style'));" +
+            "this.removeAttribute('data-style')");
+
+    }
+
+    /* ------------------- Required Plugins --------------------- */
+
+    /*
+        Color Picker Plugin
+    */
+    (function (jQuery) {
+
+        jQuery.colorpicker = function (element, options) {
+
+            var defaults = {
+
+                color: '',
+                onPick: function () { }
+
+            };
+
+            
+            plugin = this;
+
+            plugin.settings = {};
+
+            var $element = jQuery(element),
+                        element = element;
+
+            plugin.init = function () {
+
+                this.settings = jQuery.extend({}, defaults, options);
+
+                $element.css('display', 'flex');
+                var html = '<div style="width:55px;height:50px;border:1px solid rgba(53, 53, 53, 0.28);border-right:none;box-sizing:border-box;"></div>' +
+                    '<button title="Select Color" style="width:55px;height:50px;border:1px solid rgba(53, 53, 53, 0.28)"><svg class="is-icon-flex" style="fill:rgba(0, 0, 0, 0.8);width:12px;height:12px;"><use xlink:href="#ion-contrast"></use></svg></button>';
+
+                $element.html(html);
+             
+                $element.children('div').css('background-color', plugin.settings.color);
+
+                $element.children('button').on('click', function () {
+      
+                    parent._cb.pickColor(function (color) {
+                    
+                        $element.data('colorpicker').settings.onPick(color);
+
+                        $element.data('colorpicker').settings.color = color;
+
+                        $element.children('div').css('background-color', color);
+
+                    }, $element.data('colorpicker').settings.color);
+                });
+    
+            }
+
+            plugin.color = function () {
+                return $element.data('colorpicker').settings.color;
+            }
+            
+            plugin.setColor = function (color) {
+                $element.children('div').css('background-color', color);
+                
+                $element.data('colorpicker').settings.color = color;
+
+                $element.children('button').off('click');
+                $element.children('button').on('click', function () {
+                    parent._cb.pickColor(function (color) {
+
+                        $element.data('colorpicker').settings.onPick(color);
+                        
+                        $element.data('colorpicker').settings.color = color;
+
+                        $element.children('div').css('background-color', color);
+
+                    }, $element.data('colorpicker').settings.color);
+                });
+
+            }
+
+            plugin.init();
+
+        };
+
+        jQuery.fn.colorpicker = function (options) {
+            return this.each(function () {
+
+                if (undefined == jQuery(this).data('colorpicker')) {
+                    var plugin = new jQuery.colorpicker(this, options);
+                    jQuery(this).data('colorpicker', plugin);
+
+                }
+            });
+        };
+    })(jQuery);
+
+    /*
+        Tabs Plugin
+    */
+    (function (jQuery) {
+
+        jQuery.simpletabs = function (element, options) {
+
+            var defaults = {
+            };
+
+            this.settings = {};
+
+            var $element = jQuery(element),
+                    element = element;
+
+            this.init = function () {
+
+                this.settings = jQuery.extend({}, defaults, options);
+
+                jQuery('.is-tabs a').off('click');
+                jQuery('.is-tabs a').on('click', function () {
+
+                    if (jQuery(this).hasClass('active')) return false;
+
+                    var id = jQuery(this).attr('data-content');
+                    if (!id) {
+                        return false;
+                    }
+                    var group = jQuery(this).parent().attr('data-group');
+
+                    jQuery('.is-tabs[data-group="' + group + '"] > a').removeClass('active');
+                    jQuery('.is-tabs-more[data-group="' + group + '"] > a').removeClass('active');
+                    jQuery(this).addClass('active');
+
+                    jQuery('.is-tab-content[data-group="' + group + '"]').css('display', 'none');
+                    jQuery('#' + id).css('display', 'block');
+
+                    jQuery('.is-tabs-more').css('display', 'none');
+
+                    jQuery('body').trigger('click');
+                    return false;
+                });
+
+            }
+
+            this.init();
+
+        };
+
+        jQuery.fn.simpletabs = function (options) {
+            return this.each(function () {
+
+                if (undefined == jQuery(this).data('simpletabs')) {
+                    var plugin = new jQuery.simpletabs(this, options);
+                    jQuery(this).data('simpletabs', plugin);
+
+                }
+            });
+        };
+    })(jQuery);
+
+</script>
+</body>
+</html>

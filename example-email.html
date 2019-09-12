@@ -1,0 +1,213 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=""> 
+    <link rel="shortcut icon" href="#" />
+
+    <!--<link href="assets/frameworks/foundation-emails/css/foundation-emails.css" rel="stylesheet" type="text/css" />-->
+    <link href="assets/frameworks/foundation-emails/css/app.css" rel="stylesheet" type="text/css" />
+    <link href="assets/email-blocks/content.css" rel="stylesheet" type="text/css" />
+
+    <link href="contentbuilder/contentbuilder.css" rel="stylesheet" type="text/css" />
+    <style>
+        table.body {margin-top: 120px;}
+        html {display:none}
+    </style>
+</head>
+<body>
+
+<div style="margin:0;font-weight:400;color:#8d8d8d;padding-top:8px;padding-left:30px;text-align:left;">This is an online demo of <a href="https://innovastudio.com/content-builder.aspx" style="font-weight:600">ContentBuilder.js</a> (Email Mode)</div>
+
+<table class="body" data-made-with-foundation="">
+<tr>
+<td class="float-center" align="center" valign="top">
+<center data-parsed="">
+    <table align="center" class="container float-center">
+    <tbody>
+    <tr>
+    <td id="contentarea" class="is-container">
+
+        <!-- This is just a sample existing content (content can be loaded from a database) -->
+        <div>
+		    <table align="center" class="container float-center">
+                <tbody>
+              	    <tr>
+                	    <td class="wrapper-inner">
+                  		    <table align="center" class="container">
+                    		    <tbody>
+                      		    <tr>
+                        		    <td>
+                          			    <table class="row collapse">
+                            			    <tbody>
+                              			    <tr>
+                                			    <th class="small-6 large-6 columns first">
+                                  				    <table>
+                                    				    <tbody>
+                                    				    <tr>
+                                      					    <th><img src="assets/email-blocks/images/image.png" style="width: 200px; height: 60px;"></th>
+                                    				    </tr>
+                                  					    </tbody>
+                                  				    </table>
+                                			    </th>
+                                			    <th class="small-6 large-6 columns last">
+                                  				    <table>
+                                    				    <tbody>
+                                    				    <tr>
+                                      					    <th><p class="text-right"></p>                                     				
+                                      				    </th></tr>
+                                    			    </tbody></table>
+                                    		    </th>
+                                    	    </tr>
+                                  		    </tbody>
+                                  	    </table>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                	    </td>
+            	    </tr>
+                </tbody>
+            </table>
+	    </div>
+	    <div>
+		    <table align="center" class="container float-center">
+			    <tbody>
+				    <tr>
+					    <td>		
+						    <table class="row">
+							    <tbody>
+							    <tr>
+								    <th class="small-12 large-12 columns first last">
+									    <table>
+										    <tbody>
+										    <tr>
+											    <th><h1 style="font-size:40px;font-family:Open Sans;font-weight:bold;line-height:1.3">LOREM IPSUM IS SIMPLY DUMMY TEXT</h1></th>
+										    </tr>
+										    </tbody>
+									    </table>
+								    </th>
+                        	    </tr>
+                    		    </tbody>
+                		    </table>   		                     
+					    </td>
+				    </tr>
+			    </tbody>
+		    </table>
+	    </div>
+	    <div>
+		    <table align="center" class="container float-center">
+			    <tbody>
+				    <tr>
+					    <td>              
+                    	    <table class="row">
+                      		    <tbody>
+                        	    <tr>
+                          		    <th class="small-12 large-12 columns first last">
+                            		    <table>
+                              			    <tbody>
+                              			    <tr>
+                                			    <th><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></th>
+                           	 			    </tr>
+                        				    </tbody>
+                        			    </table>
+                    			    </th>
+                			    </tr>
+            				    </tbody>
+                            </table>    
+					    </td>
+                    </tr>
+                </tbody>
+            </table>
+	    </div>
+        <!-- /sample content -->
+
+    </td>
+    </tr>
+    </tbody>
+    </table>
+</center>
+</td>
+</tr>
+</table>
+
+
+<div class="is-tool" style="position:fixed;width:210px;height:50px;border:none;top:40px;bottom:auto;left:30px;right:auto;text-align:right;display:block">
+    <button id="btnViewSnippets" class="classic" style="width:70px;height:50px;">+ Add</button>
+    <button id="btnViewHtml" class="classic" style="width:70px;height:50px;">HTML</button>
+	<button id="btnSave" class="classic" style="width:70px;height:50px;">SAVE</button>
+</div>
+
+<script src="contentbuilder/jquery.min.js" type="text/javascript"></script>
+<script src="contentbuilder/contentbuilder.min.js" type="text/javascript"></script>
+<script src="contentbuilder/saveimages.js" type="text/javascript"></script>
+
+<!-- Optional: To enable drag & drop blocks -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js" type="text/javascript"></script>
+<script src="assets/email-blocks/content.js" type="text/javascript"></script>
+<!-- /Optional -->
+
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        //Load saved Content
+        if (localStorage.getItem('myemail') != null) {
+            $("#contentarea").html(localStorage.getItem('myemail'));
+        }
+        $("html").fadeIn(500);
+
+        var obj = $.contentbuilder({
+            container: '#contentarea',
+            snippetData: 'assets/email-blocks/snippetlist.html',
+            rowFormat: '<div><table align="center" class="container float-center"><tbody><tr><td><table class="row"><tbody><tr>' +
+                '</tr></tbody></table></td></tr></tbody></table></div>',
+            cellFormat: '<th class="small-12 large-12 columns first last"><table><tbody><tr><th>' +
+                '</th></tr></tbody></table></th>',
+            customTags: [["First Name", "{%first_name%}"],
+                ["Last Name", "{%last_name%}"],
+                ["Email", "{%email%}"]],
+            emailMode: true,
+            absolutePath: true,
+            snippetOpen: true
+        });
+
+        $('#btnViewSnippets').on('click', function () {
+            obj.viewSnippets();
+        });
+
+        $('#btnViewHtml').on('click', function () {
+            obj.viewHtml();
+        });
+		
+        $('#btnSave').on('click', function () {
+            save(obj);
+        });
+
+    });
+
+	function save(obj) {
+
+		$("#contentarea").saveimages({
+			handler: 'saveimage.php', /* handler for base64 image saving */
+			onComplete: function () {
+
+				//Get html
+				var html = obj.html(); //Get content
+
+				//Submit the html to the server for saving. In this example, we use localstorage
+				localStorage.setItem('myemail', html);
+
+                $("html").fadeIn(500);
+			}
+		});
+		$("#contentarea").data('saveimages').save();
+
+		$("html").fadeOut(500);
+	}
+
+</script>
+
+</body>
+</html>
