@@ -100,7 +100,7 @@ ContentBuilder.js ver.3.6
             snippetHandle: true,
             snippetOpen: false,
             snippetPageSliding: true,
-            scriptPath: 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/', //if set, will replace the currentScriptPath()
+            scriptPath: '', //if set, will replace the currentScriptPath()
             builderMode: '',
             columnTool: true,
             elementTool: true,
