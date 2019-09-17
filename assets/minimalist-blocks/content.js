@@ -23,7 +23,7 @@ var data_basic = {
     'snippets': [
 
 		{
-		    'thumbnail': 'preview/basic-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-01.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -37,7 +37,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-02.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -48,7 +48,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-03.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -60,7 +60,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-04.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -72,7 +72,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-05.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -83,7 +83,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-06.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -97,7 +97,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-07.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -110,7 +110,7 @@ var data_basic = {
 				'</div>'
 		},
 		{
-		    'thumbnail': 'preview/basic-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-08.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -124,7 +124,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-09.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -137,7 +137,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-10.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -151,7 +151,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-11.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-11.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -162,7 +162,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-12.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -173,7 +173,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-13.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-13.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -184,7 +184,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-14.png',
 		    'category': '120',
 		    'html':
 				'<div class="row clearfix">' +
@@ -208,7 +208,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-15.png',
 		    'category': '120',
 		    'html':
 			    '<div class="is-social">' +
@@ -219,7 +219,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/basic-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/basic-16.png',
 		    'category': '120',
 		    'html':
                 '<div class="is-rounded-button-medium" style="margin:1em 0">' +
@@ -231,7 +231,7 @@ var data_basic = {
 
 		/* Video */
 		{
-		'thumbnail': 'preview/element-video.png',
+		'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/element-video.png',
 		'category': '120',
 		'html':
 				'<div class="embed-responsive embed-responsive-16by9">' +
@@ -241,7 +241,7 @@ var data_basic = {
 
         /* Map */
 		{
-		'thumbnail': 'preview/element-map.png',
+		'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/element-map.png',
 		'category': '120',
 		'html':
 			    '<div class="embed-responsive embed-responsive-16by9">' +
@@ -252,7 +252,7 @@ var data_basic = {
 
         /* Slider */
 		{
-		'thumbnail': 'preview/element-slider.png',
+		'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/element-slider.png',
 		'category': '120',
 		'html':
 			    '<div class="row clearfix">' +
@@ -330,7 +330,7 @@ var data_basic = {
 
         /* Custom Code */
 		{
-		'thumbnail': 'preview/element-code.png',
+		'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/element-code.png',
 		'category': '120',
 		'html':
 			    '<div class="row clearfix">' +
@@ -359,7 +359,7 @@ var data_basic = {
 
 
 		{
-		    'thumbnail': 'preview/article-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-02.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -388,7 +388,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-04.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -416,7 +416,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-07.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -452,7 +452,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-08.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -474,7 +474,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-09.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -491,7 +491,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-10.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -515,7 +515,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-13.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-13.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -540,7 +540,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-16.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -567,7 +567,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-23.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-23.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -592,7 +592,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-25.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-25.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -614,7 +614,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-27.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-27.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -643,7 +643,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-30.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-30.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -667,7 +667,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-31.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-31.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -682,7 +682,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-33.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-33.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -706,7 +706,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-35.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-35.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -738,7 +738,7 @@ var data_basic = {
 
 
 		{
-		    'thumbnail': 'preview/article-39.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-39.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -759,7 +759,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-40.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-40.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -785,7 +785,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-41.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-41.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -811,7 +811,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-43.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-43.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -837,7 +837,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-46.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-46.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -869,7 +869,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-49.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-49.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -894,7 +894,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-50.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-50.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -925,7 +925,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-51.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-51.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -951,7 +951,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-52.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-52.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -980,7 +980,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-54.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-54.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1008,7 +1008,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-55.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-55.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1039,7 +1039,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-57.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-57.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1065,7 +1065,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-58.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-58.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1094,7 +1094,7 @@ var data_basic = {
 
 
 		{
-		    'thumbnail': 'preview/article-59.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-59.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1116,7 +1116,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-60.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-60.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1143,7 +1143,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-61.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-61.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1173,7 +1173,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/article-62.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/article-62.png',
 		    'category': '118',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1206,7 +1206,7 @@ var data_basic = {
         /* HEADLINE */
 
 		{
-		    'thumbnail': 'preview/header-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-02.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1217,7 +1217,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-07.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1236,7 +1236,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-08.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1251,7 +1251,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-09.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1270,7 +1270,7 @@ var data_basic = {
 		},
 
         {
-		    'thumbnail': 'preview/header-23.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-23.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1289,7 +1289,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-25.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-25.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1308,7 +1308,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-26.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-26.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1324,7 +1324,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-27.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-27.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1343,7 +1343,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-28.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-28.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1363,7 +1363,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-32.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-32.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1382,7 +1382,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-34.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-34.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1401,7 +1401,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-38.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-38.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1418,7 +1418,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-41.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-41.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1436,7 +1436,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-42.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-42.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1455,7 +1455,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-43.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-43.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1474,7 +1474,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-46.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-46.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1493,7 +1493,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-47.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-47.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1504,7 +1504,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-48.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-48.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1525,7 +1525,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-49.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-49.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1544,7 +1544,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-50.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-50.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1568,7 +1568,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-51.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-51.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1580,7 +1580,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-52.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-52.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1599,7 +1599,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-53.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-53.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1611,7 +1611,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-54.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-54.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1630,7 +1630,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-55.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-55.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1653,7 +1653,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-56.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-56.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1665,7 +1665,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-57.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-57.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1687,7 +1687,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-58.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-58.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1701,7 +1701,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-59.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-59.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1713,7 +1713,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-60.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-60.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1728,7 +1728,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-61.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-61.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1741,7 +1741,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/header-63.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/header-63.png',
 		    'category': '101',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1769,7 +1769,7 @@ var data_basic = {
 
 
 		{
-		'thumbnail': 'preview/photos-51.png',
+		'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-51.png',
 		'category': '102',
 		'html':
 				'<div class="row clearfix">' +
@@ -1783,7 +1783,7 @@ var data_basic = {
 },
 
 		{
-		    'thumbnail': 'preview/photos-52.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-52.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1800,7 +1800,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-50.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-50.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1811,7 +1811,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-47.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-47.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix" style="margin-left:-100px;margin-right:-100px">' +
@@ -1823,7 +1823,7 @@ var data_basic = {
 
 
 		{
-		    'thumbnail': 'preview/photos-48.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-48.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix" style="padding: 0;">' +
@@ -1837,7 +1837,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-49.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-49.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix" style="padding: 0;">' +
@@ -1854,7 +1854,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-46.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-46.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix" style="padding: 0;">' +
@@ -1865,7 +1865,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-53.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-53.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix" style="padding: 0;">' +
@@ -1890,7 +1890,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-14.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1918,7 +1918,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-15.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1951,7 +1951,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-16.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1964,7 +1964,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-17.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-17.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -1995,7 +1995,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-18.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-18.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2021,7 +2021,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-19.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-19.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2051,7 +2051,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-20.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-20.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2063,7 +2063,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-21.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-21.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2090,7 +2090,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-22.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-22.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2112,7 +2112,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-23.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-23.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2127,7 +2127,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-24.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-24.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2142,7 +2142,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-25.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-25.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2159,7 +2159,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-26.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-26.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2176,7 +2176,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-27.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-27.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2190,7 +2190,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-28.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-28.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2204,7 +2204,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-29.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-29.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2221,7 +2221,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-30.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-30.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2238,7 +2238,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-35.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-35.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2254,7 +2254,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-36.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-36.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2270,7 +2270,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-37.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-37.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2289,7 +2289,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-38.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-38.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2308,7 +2308,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-39.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-39.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2336,7 +2336,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-40.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-40.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2352,7 +2352,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/photos-41.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/photos-41.png',
 		    'category': '102',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2370,7 +2370,7 @@ var data_basic = {
         //TODO END
 
 		{
-		    'thumbnail': 'preview/profile-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-01.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2403,7 +2403,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-02.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2449,7 +2449,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-03.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2483,7 +2483,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-04.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2511,7 +2511,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-05.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2552,7 +2552,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-07.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2591,7 +2591,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-08.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2652,7 +2652,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-12.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2698,7 +2698,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-13.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-13.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2729,7 +2729,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-14.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2759,7 +2759,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-15.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2808,7 +2808,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-16.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2847,7 +2847,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-17.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-17.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2896,7 +2896,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-18.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-18.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2927,7 +2927,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-19.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-19.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2965,7 +2965,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-20.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-20.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -2995,7 +2995,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-21.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-21.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3018,7 +3018,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-22.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-22.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3041,7 +3041,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-23.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-23.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3065,7 +3065,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-24.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-24.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3089,7 +3089,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-26.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-26.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3115,7 +3115,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-27.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-27.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3141,7 +3141,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-29.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-29.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3166,7 +3166,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-30.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-30.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3191,7 +3191,7 @@ var data_basic = {
 		},
 
         {
-            'thumbnail': 'preview/profile-43.png',
+            'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-43.png',
             'category': '103',
             'html':
 				'<div class="row clearfix">' +
@@ -3211,7 +3211,7 @@ var data_basic = {
         },
 
 		{
-		    'thumbnail': 'preview/profile-44.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-44.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3231,7 +3231,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-31.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-31.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3259,7 +3259,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/profile-32.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/profile-32.png',
 		    'category': '103',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3289,7 +3289,7 @@ var data_basic = {
 		/* PRODUCTS */
 
 		{
-		    'thumbnail': 'preview/products-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-01.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3325,7 +3325,7 @@ var data_basic = {
 
 
 		{
-		    'thumbnail': 'preview/products-19.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-19.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3373,7 +3373,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-18.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-18.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3423,7 +3423,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-02.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3480,7 +3480,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-04.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3525,7 +3525,7 @@ var data_basic = {
 
 
 		{
-		    'thumbnail': 'preview/products-13.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-13.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3562,7 +3562,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-05.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3601,7 +3601,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-07.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3635,7 +3635,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-08.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3671,7 +3671,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-10.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3711,7 +3711,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-09.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3747,7 +3747,7 @@ var data_basic = {
 		},
 
         {
-            'thumbnail': 'preview/products-15.png',
+            'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-15.png',
             'category': '104',
             'html':
 				'<div class="row clearfix">' +
@@ -3783,7 +3783,7 @@ var data_basic = {
         },
 
 		{
-		    'thumbnail': 'preview/products-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-12.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3817,7 +3817,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-14.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3866,7 +3866,7 @@ var data_basic = {
 		},
 
         {
-            'thumbnail': 'preview/products-20.png',
+            'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-20.png',
             'category': '104',
             'html':
 				'<div class="row clearfix">' +
@@ -3912,7 +3912,7 @@ var data_basic = {
         },
 
 		{
-		    'thumbnail': 'preview/products-21.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-21.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -3958,7 +3958,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-17.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-17.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4003,7 +4003,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-16.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4038,7 +4038,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-03.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4088,7 +4088,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/products-11.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/products-11.png',
 		    'category': '104',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4121,7 +4121,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-01.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4160,7 +4160,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-02.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4183,7 +4183,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-03.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4222,7 +4222,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-04.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4274,7 +4274,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-05.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4313,7 +4313,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-06.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4356,7 +4356,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-07.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4390,7 +4390,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-08.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4424,7 +4424,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-09.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4462,7 +4462,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-10.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4539,7 +4539,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-11.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-11.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4578,7 +4578,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-12.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4599,7 +4599,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-13.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-13.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4629,7 +4629,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-14.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4668,7 +4668,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-15.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4691,7 +4691,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/features-19.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/features-19.png',
 		    'category': '105',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4719,7 +4719,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-01.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4756,7 +4756,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-02.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4787,7 +4787,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-03.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4828,7 +4828,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-04.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4885,7 +4885,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-05.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4930,7 +4930,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-06.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -4975,7 +4975,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-07.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5006,7 +5006,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-08.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5029,7 +5029,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-09.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5060,7 +5060,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-10.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5114,7 +5114,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-11.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-11.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5168,7 +5168,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-12.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5202,7 +5202,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-13.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-13.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5233,7 +5233,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-14.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5267,7 +5267,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-15.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5297,7 +5297,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/steps-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/steps-16.png',
 		    'category': '106',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5331,7 +5331,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-01.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5376,7 +5376,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-02.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5431,7 +5431,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-04.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5486,7 +5486,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-05.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5531,7 +5531,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-06.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5598,7 +5598,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-07.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5656,7 +5656,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-08.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5687,7 +5687,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-09.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5730,7 +5730,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-12.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5773,7 +5773,7 @@ var data_basic = {
 
 
 		{
-		    'thumbnail': 'preview/pricing-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-10.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5809,7 +5809,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-15.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5843,7 +5843,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-16.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5885,7 +5885,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-17.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-17.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5939,7 +5939,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-18.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-18.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -5994,7 +5994,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-19.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-19.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6045,7 +6045,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/pricing-20.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/pricing-20.png',
 		    'category': '107',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6069,7 +6069,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-01.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6103,7 +6103,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-02.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6148,7 +6148,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-03.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6201,7 +6201,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-04.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6257,7 +6257,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-05.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6293,7 +6293,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-06.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6344,7 +6344,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-07.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6385,7 +6385,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-08.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6422,7 +6422,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-09.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6461,7 +6461,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-10.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6505,7 +6505,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-11.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-11.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6540,7 +6540,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-12.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6574,7 +6574,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-13.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-13.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6614,7 +6614,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-14.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6647,7 +6647,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-15.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6688,7 +6688,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/skills-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/skills-16.png',
 		    'category': '108',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6721,7 +6721,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-01.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6755,7 +6755,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-02.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6782,7 +6782,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-03.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6820,7 +6820,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-04.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6850,7 +6850,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-05.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6919,7 +6919,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-06.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6953,7 +6953,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-08.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -6982,7 +6982,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-10.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7015,7 +7015,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-11.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-11.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7049,7 +7049,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-12.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7083,7 +7083,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-13.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-13.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7106,7 +7106,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-14.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7140,7 +7140,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-15.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7204,7 +7204,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-16.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7255,7 +7255,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-17.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-17.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7306,7 +7306,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/achievements-18.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/achievements-18.png',
 		    'category': '109',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7345,7 +7345,7 @@ var data_basic = {
 		},
 
         {
-            'thumbnail': 'preview/quotes-24.png',
+            'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-24.png',
             'category': '110',
             'html':
 		    	'<div class="row clearfix">' +
@@ -7375,7 +7375,7 @@ var data_basic = {
         },
 
 		{
-		    'thumbnail': 'preview/quotes-25.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-25.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7402,7 +7402,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-26.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-26.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7418,7 +7418,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-27.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-27.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7434,7 +7434,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-28.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-28.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7449,7 +7449,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-29.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-29.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7471,7 +7471,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-30.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-30.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7516,7 +7516,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-31.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-31.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7562,7 +7562,7 @@ var data_basic = {
 
 
 		{
-		    'thumbnail': 'preview/quotes-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-05.png',
 		    'category': '110',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7601,7 +7601,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-06.png',
 		    'category': '110',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7638,7 +7638,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-07.png',
 		    'category': '110',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7663,7 +7663,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-08.png',
 		    'category': '110',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7696,7 +7696,7 @@ var data_basic = {
 		},
 
         {
-            'thumbnail': 'preview/quotes-16.png',
+            'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-16.png',
             'category': '110',
             'html':
 		    	'<div class="row clearfix">' +
@@ -7729,7 +7729,7 @@ var data_basic = {
         },
 
 		{
-		    'thumbnail': 'preview/quotes-17.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-17.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7748,7 +7748,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-18.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-18.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7767,7 +7767,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/quotes-19.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/quotes-19.png',
 		    'category': '110',
 		    'html':
 		    	'<div class="row clearfix">' +
@@ -7789,7 +7789,7 @@ var data_basic = {
 		/* PARTNERS */
 
 		{
-			'thumbnail': 'preview/partners-03.png',
+			'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/partners-03.png',
 			'category': '111',
 			'html':
 				'<div class="row clearfix">' +
@@ -7820,7 +7820,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/partners-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/partners-05.png',
 		    'category': '111',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7855,7 +7855,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/partners-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/partners-06.png',
 		    'category': '111',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7892,7 +7892,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/partners-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/partners-01.png',
 		    'category': '111',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7923,7 +7923,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/asfeaturedon-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/asfeaturedon-01.png',
 		    'category': '112',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7943,7 +7943,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/asfeaturedon-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/asfeaturedon-02.png',
 		    'category': '112',
 		    'html':
 				'<div class="row clearfix">' +
@@ -7973,7 +7973,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/asfeaturedon-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/asfeaturedon-03.png',
 		    'category': '112',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8001,7 +8001,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/asfeaturedon-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/asfeaturedon-05.png',
 		    'category': '112',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8045,7 +8045,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/404-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/404-01.png',
 		    'category': '113',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8063,7 +8063,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/404-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/404-02.png',
 		    'category': '113',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8076,7 +8076,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/404-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/404-03.png',
 		    'category': '113',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8094,7 +8094,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/404-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/404-04.png',
 		    'category': '113',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8112,7 +8112,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/404-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/404-06.png',
 		    'category': '113',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8131,7 +8131,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/404-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/404-07.png',
 		    'category': '113',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8150,7 +8150,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/404-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/404-08.png',
 		    'category': '113',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8163,7 +8163,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/404-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/404-09.png',
 		    'category': '113',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8179,7 +8179,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/comingsoon-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/comingsoon-01.png',
 		    'category': '114',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8199,7 +8199,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/comingsoon-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/comingsoon-02.png',
 		    'category': '114',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8216,7 +8216,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/comingsoon-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/comingsoon-03.png',
 		    'category': '114',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8235,7 +8235,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/comingsoon-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/comingsoon-04.png',
 		    'category': '114',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8253,7 +8253,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/comingsoon-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/comingsoon-05.png',
 		    'category': '114',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8271,7 +8271,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/comingsoon-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/comingsoon-06.png',
 		    'category': '114',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8293,7 +8293,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/comingsoon-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/comingsoon-07.png',
 		    'category': '114',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8312,7 +8312,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/comingsoon-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/comingsoon-08.png',
 		    'category': '114',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8325,7 +8325,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/faq-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/faq-01.png',
 		    'category': '115',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8365,7 +8365,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/faq-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/faq-02.png',
 		    'category': '115',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8410,7 +8410,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/faq-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/faq-03.png',
 		    'category': '115',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8444,7 +8444,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/faq-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/faq-04.png',
 		    'category': '115',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8494,7 +8494,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/faq-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/faq-05.png',
 		    'category': '115',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8540,7 +8540,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/faq-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/faq-06.png',
 		    'category': '115',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8584,7 +8584,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-01.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8606,7 +8606,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-02.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8638,7 +8638,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-04.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8673,7 +8673,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-05.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8707,7 +8707,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-06.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8728,7 +8728,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-07.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8747,7 +8747,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-08.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8770,7 +8770,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-09.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8793,7 +8793,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-10.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8825,7 +8825,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-11.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-11.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8843,7 +8843,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-12.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8867,7 +8867,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-18.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-18.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8893,7 +8893,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-14.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-14.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8906,7 +8906,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-15.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-15.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8927,7 +8927,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-16.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-16.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8948,7 +8948,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/contact-19.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/contact-19.png',
 		    'category': '116',
 		    'html':
 				'<div class="row clearfix">' +
@@ -8975,7 +8975,7 @@ var data_basic = {
 		/* Buttons */
 
 		{
-		    'thumbnail': 'preview/button-01.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-01.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -8985,7 +8985,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-02.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-02.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -8994,7 +8994,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-03.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-03.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9003,7 +9003,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-04.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-04.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9013,7 +9013,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-05.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-05.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9022,7 +9022,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-06.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-06.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9031,7 +9031,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-07.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-07.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9041,7 +9041,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-08.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-08.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9050,7 +9050,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-09.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-09.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9059,7 +9059,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-10.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-10.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9069,7 +9069,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-11.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-11.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9078,7 +9078,7 @@ var data_basic = {
 		},
 
 		{
-		    'thumbnail': 'preview/button-12.png',
+		    'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/button-12.png',
 		    'category': '119',
 		    'html':
 				'<div>' +
@@ -9091,7 +9091,7 @@ var data_basic = {
 
         // Custom Module Example (with simple initial content)
         {
-        'thumbnail': 'preview/element-code.png',
+        'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/element-code.png',
         'category': '120',
         'html':
 			    '<div class="row clearfix">' +
@@ -9105,7 +9105,7 @@ var data_basic = {
 
         // Custom Module Example (with initial content, script and settings)
         {
-		'thumbnail': 'preview/element-code.png',
+		'thumbnail': 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/preview/element-code.png',
 		'category': '120',
 		'html':
 			    '<div class="row clearfix">' +
