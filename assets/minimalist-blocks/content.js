@@ -77,7 +77,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/oleg-laptev-545268-unsplash-VD7ll2.jpg">' +
+						'<img src="images/oleg-laptev-545268-unsplash-VD7ll2.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -88,7 +88,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/jon-lalin-731093-unsplash-(1)-tdmMt1.jpg">' +
+						'<img src="images/jon-lalin-731093-unsplash-(1)-tdmMt1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>' +
@@ -105,7 +105,7 @@ var data_basic = {
 						'<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/adam-birkett-209727-unsplash-(2)-H2BMm1.jpg">' +
+						'<img src="images/adam-birkett-209727-unsplash-(2)-H2BMm1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -1774,10 +1774,10 @@ var data_basic = {
 		'html':
 				'<div class="row clearfix">' +
                     '<div class="column half">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/jon-lalin-731093-unsplash-(1)-tdmMt1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/jon-lalin-731093-unsplash-(1)-tdmMt1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column half">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/adam-birkett-209727-unsplash-(2)-H2BMm1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/adam-birkett-209727-unsplash-(2)-H2BMm1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>'
 },
@@ -1788,13 +1788,13 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
                     '<div class="column third">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/chuttersnap-413002-unsplash-83HqE1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/chuttersnap-413002-unsplash-83HqE1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column third">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/caroline-bertolini-270870-unsplash-1j5FB2.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/caroline-bertolini-270870-unsplash-1j5FB2.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column third">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/theo-roland-740436-unsplash-WqnWJ3.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/theo-roland-740436-unsplash-WqnWJ3.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>'
 		},
@@ -1805,7 +1805,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
                     '<div class="column full">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/oleg-laptev-545268-unsplash-VD7ll2.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/oleg-laptev-545268-unsplash-VD7ll2.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>'
 		},
@@ -1816,7 +1816,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix" style="margin-left:-100px;margin-right:-100px">' +
                     '<div class="column full">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/oleg-laptev-545268-unsplash-VD7ll2.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/oleg-laptev-545268-unsplash-VD7ll2.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>'
 		},
@@ -1828,10 +1828,10 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix" style="padding: 0;">' +
                     '<div class="column half" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/jon-lalin-731093-unsplash-(1)-tdmMt1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/jon-lalin-731093-unsplash-(1)-tdmMt1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column half" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/adam-birkett-209727-unsplash-(2)-H2BMm1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/adam-birkett-209727-unsplash-(2)-H2BMm1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>'
 		},
@@ -1842,13 +1842,13 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix" style="padding: 0;">' +
                     '<div class="column third" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/chuttersnap-413002-unsplash-83HqE1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/chuttersnap-413002-unsplash-83HqE1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column third" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/caroline-bertolini-270870-unsplash-1j5FB2.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/caroline-bertolini-270870-unsplash-1j5FB2.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column third" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/theo-roland-740436-unsplash-WqnWJ3.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/theo-roland-740436-unsplash-WqnWJ3.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>'
 		},
@@ -1859,7 +1859,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix" style="padding: 0;">' +
                     '<div class="column full" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/oleg-laptev-545268-unsplash-VD7ll2.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/oleg-laptev-545268-unsplash-VD7ll2.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>'
 		},
@@ -1870,21 +1870,21 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix" style="padding: 0;">' +
                     '<div class="column third" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/chuttersnap-413002-unsplash-83HqE1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/chuttersnap-413002-unsplash-83HqE1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column third" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/caroline-bertolini-270870-unsplash-1j5FB2.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/caroline-bertolini-270870-unsplash-1j5FB2.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column third" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/theo-roland-740436-unsplash-WqnWJ3.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/theo-roland-740436-unsplash-WqnWJ3.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>' +
 				'<div class="row clearfix" style="padding: 0;">' +
                     '<div class="column half" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/jon-lalin-731093-unsplash-(1)-tdmMt1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/jon-lalin-731093-unsplash-(1)-tdmMt1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                     '<div class="column half" style="padding: 0;">' +
-                        '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/adam-birkett-209727-unsplash-(2)-H2BMm1.jpg" style="margin: 0;float: left;">' +
+                        '<img src="images/adam-birkett-209727-unsplash-(2)-H2BMm1.jpg" style="margin: 0;float: left;">' +
                     '</div>' +
                 '</div>'
 		},
@@ -1905,12 +1905,12 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/pawel-czerwinski-1080345-unsplash-Zxz1W1.jpg">' +
+						'<img src="images/pawel-czerwinski-1080345-unsplash-Zxz1W1.jpg">' +
 						'\n<h3 class="size-21">IMAGE CAPTION</h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text</p>' +
 					'</div>' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/agata-create-1137058-unsplash-(1)-UvBs02.jpg">' +
+						'<img src="images/agata-create-1137058-unsplash-(1)-UvBs02.jpg">' +
 						'\n<h3 class="size-21">IMAGE CAPTION</h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text</p>' +
 					'</div>' +
@@ -1933,17 +1933,17 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/monika-grabkowska-742426-unsplash-AtCtH1.jpg">' +
+						'<img src="images/monika-grabkowska-742426-unsplash-AtCtH1.jpg">' +
 						'\n<h3 class="size-18">CAPTION</h3>' +
 						'\n<p class="size-14" style="color: rgb(136, 136, 136);">Lorem Ipsum is dummy text.</p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/mira-bozhko-456995-YiVKC1.jpg">' +
+						'<img src="images/mira-bozhko-456995-YiVKC1.jpg">' +
 						'\n<h3 class="size-18">CAPTION</h3>' +
 						'\n<p class="size-14" style="color: rgb(136, 136, 136);">Lorem Ipsum is dummy text.</p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/lauren-mancke-63448-unsplash-AtCtH2.jpg">' +
+						'<img src="images/lauren-mancke-63448-unsplash-AtCtH2.jpg">' +
 						'\n<h3 class="size-18">CAPTION</h3>' +
 						'\n<p class="size-14" style="color: rgb(136, 136, 136);">Lorem Ipsum is dummy text.</p>' +
 					'</div>' +
@@ -1956,7 +1956,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/susanne-schwarz-1142929-unsplash-IZGK11.jpg">' +
+						'<img src="images/susanne-schwarz-1142929-unsplash-IZGK11.jpg">' +
 						'\n<h3 class="size-21">IMAGE CAPTION</h3>' +
 						'\n<p>Lorem Ipsum is dummy text of the printing industry</p>' +
 					'</div>' +
@@ -1980,15 +1980,15 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/art-materials-close-up-color-pencils-1484263-jT5E21.jpg" style="border-radius: 500px;">' +
+						'<img src="images/art-materials-close-up-color-pencils-1484263-jT5E21.jpg" style="border-radius: 500px;">' +
 						'\n<p class="size-14">Lorem Ipsum is dummy text</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/oleg-laptev-546607-unsplash-SKGb82.jpg" style="border-radius: 500px;">' +
+						'<img src="images/oleg-laptev-546607-unsplash-SKGb82.jpg" style="border-radius: 500px;">' +
 						'\n<p class="size-14">Lorem Ipsum is dummy text</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/michal-grosicki-XG2yA3.jpg" style="border-radius: 500px;">' +
+						'<img src="images/michal-grosicki-XG2yA3.jpg" style="border-radius: 500px;">' +
 						'\n<p class="size-14">Lorem Ipsum is dummy text</p>' +
 					'</div>' +
 				'</div>'
@@ -2010,11 +2010,11 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/remi-muller-359340-unsplash-JOL3q1.jpg">' +
+						'<img src="images/remi-muller-359340-unsplash-JOL3q1.jpg">' +
 						'\n<p><i>Lorem Ipsum is dummy text</i></p>' +
 					'</div>' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/dlanor-s-591314-unsplash-maNC32.jpg">' +
+						'<img src="images/dlanor-s-591314-unsplash-maNC32.jpg">' +
 						'\n<p><i>Lorem Ipsum is dummy text</i></p>' +
 					'</div>' +
 				'</div>'
@@ -2036,15 +2036,15 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/agata-create-1132088-unsplash-(1)-adQTO1.jpg">' +
+						'<img src="images/agata-create-1132088-unsplash-(1)-adQTO1.jpg">' +
 						'\n<p>IMAGE CAPTION</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/lucrezia-carnelos-1127196-unsplash-Y7ahO2.jpg">' +
+						'<img src="images/lucrezia-carnelos-1127196-unsplash-Y7ahO2.jpg">' +
 						'\n<p>IMAGE CAPTION</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/bright-bulb-close-up-1166643-oof1G3.jpg">' +
+						'<img src="images/bright-bulb-close-up-1166643-oof1G3.jpg">' +
 						'\n<p>IMAGE CAPTION</p>' +
 					'</div>' +
 				'</div>'
@@ -2056,7 +2056,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/omar-lopez-32084-8ciiC1.jpg">' +
+						'<img src="images/omar-lopez-32084-8ciiC1.jpg">' +
 						'\n<p style="color: rgb(136, 136, 136);">Lorem Ipsum is dummy text of the printing industry</p>' +
 					'</div>' +
 				'</div>'
@@ -2078,13 +2078,13 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-ORebV1.jpg">' +
+						'<img src="images/-ORebV1.jpg">' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/ian-dooley-298771-unsplash-Hu2RU3.jpg">' +
+						'<img src="images/ian-dooley-298771-unsplash-Hu2RU3.jpg">' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/daniel-klopper-1142809-unsplash-pToHm2.jpg">' +
+						'<img src="images/daniel-klopper-1142809-unsplash-pToHm2.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2106,7 +2106,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/anthony-tran-1076077-vcoLP1.jpg">' +
+						'<img src="images/anthony-tran-1076077-vcoLP1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2117,7 +2117,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column two-third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/rawpixel-1200191-unsplash-Ms1O81.jpg">' +
+						'<img src="images/rawpixel-1200191-unsplash-Ms1O81.jpg">' +
 					'</div>' +
 					'<div class="column third">' +
 						'<h4 class="size-21" style="letter-spacing: 2px;">IMAGE CAPTION</h4>' +
@@ -2136,7 +2136,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 					'</div>' +
 					'<div class="column two-third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/iman-soleimany-zadeh-1205567-unsplash-AUqMZ2.jpg">' +
+						'<img src="images/iman-soleimany-zadeh-1205567-unsplash-AUqMZ2.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2147,7 +2147,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/maksym-zakharyak-688728-unsplash-p9w092.jpg">' +
+						'<img src="images/maksym-zakharyak-688728-unsplash-p9w092.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div class="spacer height-40"></div>' +
@@ -2170,7 +2170,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/rodion-kutsaev-24833-unsplash-HEuVp1.jpg">' +
+						'<img src="images/rodion-kutsaev-24833-unsplash-HEuVp1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2181,7 +2181,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column two-third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/monica-galentino-102655-unsplash-gfbdC1.jpg">' +
+						'<img src="images/monica-galentino-102655-unsplash-gfbdC1.jpg">' +
 					'</div>' +
 					'<div class="column third">' +
 						'<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s. Vivamus leo ante.</p>' +
@@ -2198,7 +2198,7 @@ var data_basic = {
 						'<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s. Vivamus leo ante.</p>' +
 					'</div>' +
 					'<div class="column two-third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/rawpixel-1197453-unsplash-a7ozj2.jpg">' +
+						'<img src="images/rawpixel-1197453-unsplash-a7ozj2.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2209,8 +2209,8 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-XstZ21.jpg">' +
-						'\n<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-budQW2.jpg">' +
+						'<img src="images/-XstZ21.jpg">' +
+						'\n<img src="images/-budQW2.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h3 style="font-style: normal; letter-spacing: 2px;">Caption.</h3>' +
@@ -2231,8 +2231,8 @@ var data_basic = {
 						'\n<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/sarah-dorweiler-211779-unsplash-dN96G1.jpg">' +
-						'\n<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/kris-atomic-39874-unsplash-vpMhe2.jpg">' +
+						'<img src="images/sarah-dorweiler-211779-unsplash-dN96G1.jpg">' +
+						'\n<img src="images/kris-atomic-39874-unsplash-vpMhe2.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2243,7 +2243,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/rawpixel-1197458-unsplash-J52N31.jpg">' +
+						'<img src="images/rawpixel-1197458-unsplash-J52N31.jpg">' +
 					'</div>' +
 					'<div class="column half right">' +
 						'<h3 style="text-align: right; letter-spacing: 3px;">Image Caption</h3>' +
@@ -2264,7 +2264,7 @@ var data_basic = {
 						'\n<p style="border-bottom: 2px solid #000; width: 60px; display: inline-block;"></p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-5F3zm1.jpg">' +
+						'<img src="images/-5F3zm1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2276,7 +2276,7 @@ var data_basic = {
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
 						'<div style="padding-right:30px">' +
-							_tabs(1) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-4r9Fa1.jpg">' +
+							_tabs(1) + '<img src="images/-4r9Fa1.jpg">' +
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
@@ -2301,7 +2301,7 @@ var data_basic = {
 					'</div>' +
 					'<div class="column half">' +
 						'<div style="padding-left:30px">' +
-							_tabs(1) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-lbizY1.jpg">' +
+							_tabs(1) + '<img src="images/-lbizY1.jpg">' +
 						'\n</div>' +
 					'</div>' +
 				'</div>'
@@ -2313,7 +2313,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-ocaLR1.jpg">' +
+						'<img src="images/-ocaLR1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div class="spacer height-40"></div>' +
@@ -2330,7 +2330,7 @@ var data_basic = {
 						'\n<p style="text-align: center;">Lorem Ipsum is simply dummy text of the printing industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-mHAa32.jpg">' +
+						'<img src="images/-mHAa32.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2341,7 +2341,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column two-third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-OJKzv1.jpg">' +
+						'<img src="images/-OJKzv1.jpg">' +
 					'</div>' +
 					'<div class="column third">' +
 						'<div class="spacer height-180"></div>' +
@@ -2362,7 +2362,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum dolor.</p>' +
 					'</div>' +
 					'<div class="column two-third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-I81sR1.jpg">' +
+						'<img src="images/-I81sR1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2385,17 +2385,17 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/bangkit-ristant-395541-e0mhz1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/bangkit-ristant-395541-e0mhz1.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-21" style="letter-spacing: 2px;">VINCENT NELSON</h3>' +
 						'\n<p style="color: #b7b7b7">WEB DESIGNER</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/redd-angelo-427759-33bDf2.jpg" style="border-radius: 500px;">' +
+						'<img src="images/redd-angelo-427759-33bDf2.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-21" style="letter-spacing: 2px;">NATHAN WILLIAMS</h3>' +
 						'\n<p style="color: #b7b7b7">WEB DEVELOPER</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/mads-schmidt-rasmussen-186319-8AVbA1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/mads-schmidt-rasmussen-186319-8AVbA1.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-21" style="letter-spacing: 2px;">THOMAS CALVIN</h3>' +
 						'\n<p style="color: #b7b7b7">ACCOUNT MANAGER</p>' +
 					'</div>' +
@@ -2419,7 +2419,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/samuel-zeller-413072-Tx4ai1.jpg">' +
+						'<img src="images/samuel-zeller-413072-Tx4ai1.jpg">' +
 						'\n<h3 class="size-24 is-title-lite">JENNIFER ASH</h3>' +
 						'\n<div class="size-14 is-social edit">' +
 							_tabs(1) + '<a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a>' +
@@ -2428,7 +2428,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/michael-236683-Tx4ai2.jpg">' +
+						'<img src="images/michael-236683-Tx4ai2.jpg">' +
 						'\n<h3 class="size-24 is-title-lite">MICHAEL ISON</h3>' +
 						'\n<div class="size-14 is-social edit">' +
 							_tabs(1) + '<a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a>' +
@@ -2437,7 +2437,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/michael-221247-Hspxi3.jpg">' +
+						'<img src="images/michael-221247-Hspxi3.jpg">' +
 						'\n<h3 class="size-24 is-title-lite">JOHN CONWAY</h3>' +
 						'\n<div class="size-14 is-social edit">' +
 							_tabs(1) + '<a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a>' +
@@ -2465,17 +2465,17 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/working-2618559_1920-kr4Af1.jpg">' +
+						'<img src="images/working-2618559_1920-kr4Af1.jpg">' +
 						'\n<h5 style="letter-spacing: 3px;">Sarah Doe</h5>' +
 						'\n<p style="color: rgb(136, 136, 136);">Founder</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/rawpixel-632454-unsplash-ecHZN1.jpg">' +
+						'<img src="images/rawpixel-632454-unsplash-ecHZN1.jpg">' +
 						'\n<h5 style="letter-spacing: 3px;">David Anderson</h5>' +
 						'\n<p style="color: rgb(136, 136, 136);">Programmer</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/girl-2618562_1920-KAzoZ2.jpg">' +
+						'<img src="images/girl-2618562_1920-KAzoZ2.jpg">' +
 						'\n<h5 style="letter-spacing: 3px;">Jennifer Clarke</h5>' +
 						'\n<p style="color: rgb(136, 136, 136);">Web Designer</p>' +
 					'</div>' +
@@ -2493,17 +2493,17 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/luke-ellis-craven-365822-wrHAg1.jpg">' +
+						'<img src="images/luke-ellis-craven-365822-wrHAg1.jpg">' +
 						'\n<h5 class="size-24" style="letter-spacing: 2px;">Nathan Williams <span style="color: rgb(136, 136, 136);">/ Founder</span></h5>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/yoann-boyer-276971-S8TZu2.jpg">' +
+						'<img src="images/yoann-boyer-276971-S8TZu2.jpg">' +
 						'\n<h5 class="size-24" style="letter-spacing: 2px;">Sarah Anderson <span style="color: rgb(136, 136, 136);">/ Developer</span></h5>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/pablo-hermoso-429590-(1)-fP4pI3.jpg">' +
+						'<img src="images/pablo-hermoso-429590-(1)-fP4pI3.jpg">' +
 						'\n<h5 class="size-24" style="letter-spacing: 2px;">Jane Doe <span style="color: rgb(136, 136, 136);">/ Web Designer</span></h5>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 					'</div>' +
@@ -2529,22 +2529,22 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/adult-1868750_1920-EzivE1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/adult-1868750_1920-EzivE1.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-24">David Smith</h3>' +
 						'\n<p style="color: rgb(136, 136, 136);;">CEO & Founder</p>' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/noah-buscher-502067-(1)-rT7Vn1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/noah-buscher-502067-(1)-rT7Vn1.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-24">Milla Clarke</h3>' +
 						'\n<p style="color: rgb(136, 136, 136);;">Project Manager</p>' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/berwin-coroza-495276-tXRrf2.jpg" style="border-radius: 500px;">' +
+						'<img src="images/berwin-coroza-495276-tXRrf2.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-24">John Rugg</h3>' +
 						'\n<p style="color: rgb(136, 136, 136);;">Developer</p>' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/mark-skeet-537093-6gF113.jpg" style="border-radius: 500px;">' +
+						'<img src="images/mark-skeet-537093-6gF113.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-24">Sarah Ashley</h3>' +
 						'\n<p style="color: rgb(136, 136, 136);;">Web Designer</p>' +
 					'</div>' +
@@ -2567,7 +2567,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/girl-690119-c7s4t1.jpg">' +
+						'<img src="images/girl-690119-c7s4t1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h2>Your Name</h2>' +
@@ -2581,7 +2581,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/photo-1437915160026-6c59da36ede2-AakHA2.jpg">' +
+						'<img src="images/photo-1437915160026-6c59da36ede2-AakHA2.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h2>Your Name</h2>' +
@@ -2608,7 +2608,7 @@ var data_basic = {
 				'<div class="row clearfix">' +
 					'<div class="column third">' +
 						'<div class="is-card max-390 is-light-text" style="background: #1c93ad;">' +
-							_tabs(1) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/bernard-osei-608155-unsplash-BsEPC1.jpg" class="margin-0">' +
+							_tabs(1) + '<img src="images/bernard-osei-608155-unsplash-BsEPC1.jpg" class="margin-0">' +
 							_tabs(1) + '<div class="margin-25 center">' +
 									_tabs(2) + '<h3 class="size-21 margin-0" style="letter-spacing: 1px;">JANE FOSTER</h3>' +
 									_tabs(2) + '<p class="size-16">Lorem Ipsum is simply dummy text of the printing industry.</p>' +
@@ -2622,7 +2622,7 @@ var data_basic = {
 					'</div>' +
 					'<div class="column third">' +
 						'<div class="is-card max-390 is-light-text" style="background: #e0527e;">' +
-							_tabs(1) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-HAWqm1.jpg" class="margin-0">' +
+							_tabs(1) + '<img src="images/-HAWqm1.jpg" class="margin-0">' +
 							_tabs(1) + '<div class="margin-25 center">' +
 										_tabs(2) + '<h3 class="size-21 margin-0" style="letter-spacing: 1px;">MICHELLE DOE</h3>' +
 										_tabs(2) + '<p class="size-16">Lorem Ipsum is simply dummy text of the printing industry.</p>' +
@@ -2636,7 +2636,7 @@ var data_basic = {
 					'</div>' +
 					'<div class="column third">' +
 						'<div class="is-card max-390 is-light-text" style="background: #e17055">' +
-							_tabs(1) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/girl-from-behind-1741699-(1)-PqduN2.jpg" class="margin-0">' +
+							_tabs(1) + '<img src="images/girl-from-behind-1741699-(1)-PqduN2.jpg" class="margin-0">' +
 							_tabs(1) + '<div class="margin-25 center">' +
 										_tabs(2) + '<h3 class="size-21 margin-0" style="letter-spacing: 1px;">JANE WILLIAMS</h3>' +
 										_tabs(2) + '<p class="size-16">Lorem Ipsum is simply dummy text of the printing industry.</p>' +
@@ -2668,7 +2668,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/rawpixel-632454-unsplash-oLoHS1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/rawpixel-632454-unsplash-oLoHS1.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-21 is-title-lite">JOHN ANDERSON</h3>' +
 						'\n<div class="size-12 is-social edit">' +
 							_tabs(1) + '<a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a>' +
@@ -2677,7 +2677,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-tfqUv1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/-tfqUv1.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-21 is-title-lite">DAVID CLARK</h3>' +
 						'\n<div class="size-12 is-social edit">' +
 							_tabs(1) + '<a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a>' +
@@ -2686,7 +2686,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/rawpixel-1054600-unsplash-PylVl2.jpg" style="border-radius: 500px;">' +
+						'<img src="images/rawpixel-1054600-unsplash-PylVl2.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-21 is-title-lite">NATASHA KERR</h3>' +
 						'\n<div class="size-12 is-social edit">' +
 							_tabs(1) + '<a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a>' +
@@ -2714,7 +2714,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/sarah-noltner-687653-unsplash-6Agfw1.jpg">' +
+						'<img src="images/sarah-noltner-687653-unsplash-6Agfw1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h3 style="letter-spacing: 1px;">Jeniffer Phillips</h3>' +
@@ -2744,7 +2744,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/luke-porter-520986-unsplash-kjuDr1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/luke-porter-520986-unsplash-kjuDr1.jpg" style="border-radius: 500px;">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h3 style="letter-spacing: 1px;">David Stuart</h3>' +
@@ -2774,7 +2774,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/nicole-honeywill-546846-unsplash-(1)-84PNj2.jpg" style="border-radius: 500px;">' +
+						'<img src="images/nicole-honeywill-546846-unsplash-(1)-84PNj2.jpg" style="border-radius: 500px;">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h3 style="letter-spacing: 1px;">Laura Clark</h3>' +
@@ -2793,7 +2793,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/alex-iby-480498-unsplash-JOL3q3.jpg" style="border-radius: 500px;">' +
+						'<img src="images/alex-iby-480498-unsplash-JOL3q3.jpg" style="border-radius: 500px;">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h3 style="letter-spacing: 1px;">Michael Smith</h3>' +
@@ -2824,7 +2824,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/nordwood-themes-166423-unsplash-(1)-4WJ2H1.jpg">' +
+						'<img src="images/nordwood-themes-166423-unsplash-(1)-4WJ2H1.jpg">' +
 						'\n<h3 class="size-24" style="letter-spacing: 1px;">Roy Krueger</h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 						'\n<div class="size-14 is-social edit">' +
@@ -2834,7 +2834,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-9Htn91.jpg">' +
+						'<img src="images/-9Htn91.jpg">' +
 						'\n<h3 class="size-24" style="letter-spacing: 1px;">Amanda Barnet</h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 						'\n<div class="size-14 is-social edit">' +
@@ -2862,7 +2862,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/parker-johnson-1100877-unsplash-(1)-rufBy1.jpg">' +
+						'<img src="images/parker-johnson-1100877-unsplash-(1)-rufBy1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h3 style="letter-spacing: 1px;">Patricia Young</h3>' +
@@ -2890,7 +2890,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/beautiful-close-up-color-1078058-Qywhs1.jpg">' +
+						'<img src="images/beautiful-close-up-color-1078058-Qywhs1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2921,7 +2921,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/daniel-apodaca-584113-unsplash-(1)-U9Iby1.jpg">' +
+						'<img src="images/daniel-apodaca-584113-unsplash-(1)-U9Iby1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -2942,7 +2942,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/alex-shaw-1116446-unsplash-JWfd61.jpg" style="border-radius: 500px;">' +
+						'<img src="images/alex-shaw-1116446-unsplash-JWfd61.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-24" style="letter-spacing: 1px;">Yolanda Ludwig</h3>' +
 						'\n<p>Lorem Ipsum is dummy text of the printing and typesetting industry.</p>' +
 						'\n<div class="size-14 is-social edit">' +
@@ -2952,7 +2952,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-JMXQP1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/-JMXQP1.jpg" style="border-radius: 500px;">' +
 						'\n<h3 class="size-24" style="letter-spacing: 1px;">Anthony Fales</h3>' +
 						'\n<p>Lorem Ipsum is simply text of the printing and typesetting industry.</p>' +
 						'\n<div class="size-14 is-social edit">' +
@@ -2989,7 +2989,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/simon-migaj-775713-unsplash-l8oSx1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/simon-migaj-775713-unsplash-l8oSx1.jpg" style="border-radius: 500px;">' +
 					'</div>' +
 				'</div>'
 		},
@@ -3000,7 +3000,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-6Q6W91.jpg">' +
+						'<img src="images/-6Q6W91.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div class="spacer height-80"></div>' +
@@ -3035,7 +3035,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-ayzzH2.jpg">' +
+						'<img src="images/-ayzzH2.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -3046,7 +3046,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-fxBmr1.jpg">' +
+						'<img src="images/-fxBmr1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<p style="border-bottom: 2px solid #c3c2c2;width: 90px;display: inline-block;margin-top:22px;"></p>' +
@@ -3083,7 +3083,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-6SDpQ1.jpg">' +
+						'<img src="images/-6SDpQ1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -3094,7 +3094,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-z01lr1.jpg">' +
+						'<img src="images/-z01lr1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<h2 style="text-align: center; letter-spacing: 3px;">Sabrina Watson</h2>' +
@@ -3135,7 +3135,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-SRJrq2.jpg">' +
+						'<img src="images/-SRJrq2.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -3146,7 +3146,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-otLsK1.jpg">' +
+						'<img src="images/-otLsK1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div style="padding-left: 40px">' +
@@ -3185,7 +3185,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-TUrpQ1.jpg">' +
+						'<img src="images/-TUrpQ1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -3196,7 +3196,7 @@ var data_basic = {
             'html':
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-DbQGW1.jpg" style="border-radius: 500px">' +
+						'<img src="images/-DbQGW1.jpg" style="border-radius: 500px">' +
 					'</div>' +
 					'<div class="column two-third">' +
 						'<h3 class="size-21">Amanda Davis</h3>' +
@@ -3216,7 +3216,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-gs7XT1.jpg">' +
+						'<img src="images/-gs7XT1.jpg">' +
 					'</div>' +
 					'<div class="column two-third">' +
 						'<h3 class="size-21">Ronald Evans</h3>' +
@@ -3236,7 +3236,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-DjWQ71.jpg" style="border-radius: 500px;">' +
+						'<img src="images/-DjWQ71.jpg" style="border-radius: 500px;">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div style="padding-left:40px">' +
@@ -3281,7 +3281,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-c2y4f1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/-c2y4f1.jpg" style="border-radius: 500px;">' +
 					'</div>' +
 				'</div>'
 		},
@@ -3304,7 +3304,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/photo-1459411552884-841db9b3cc2a-YO89Y1.jpg">' +
+						'<img src="images/photo-1459411552884-841db9b3cc2a-YO89Y1.jpg">' +
 						'\n<h3>Product One, <b>$109</b></h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 						'\n<div style="margin:2em 0 2em">' +
@@ -3312,7 +3312,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/photo-1471256737566-c7ddd846bee0-small-NBNfZ2.jpg">' +
+						'<img src="images/photo-1471256737566-c7ddd846bee0-small-NBNfZ2.jpg">' +
 						'\n<h3>Product Two, <b>$299</b></h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 						'\n<div style="margin:2em 0 2em">' +
@@ -3443,7 +3443,7 @@ var data_basic = {
 					'<div class="column third center">' +
 						'<div class="is-card is-dark-text shadow-1">' +
 							_tabs(1) + '<div class="margin-25">' +
-								_tabs(2) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/x98sw2520-sh1J31.jpg" style="border-radius: 500px">' +
+								_tabs(2) + '<img src="images/x98sw2520-sh1J31.jpg" style="border-radius: 500px">' +
 								_tabs(2) + '<h3 class="size-24" style="letter-spacing: 1px;">Product One</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:27px 0">' +
@@ -3455,7 +3455,7 @@ var data_basic = {
 					'<div class="column third center">' +
 						'<div class="is-card is-dark-text shadow-1">' +
 							_tabs(1) + '<div class="margin-25">' +
-								_tabs(2) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/georgie-cobbs-467923-unsplash-G9q9p2.jpg" style="border-radius: 500px">' +
+								_tabs(2) + '<img src="images/georgie-cobbs-467923-unsplash-G9q9p2.jpg" style="border-radius: 500px">' +
 								_tabs(2) + '<h3 class="size-24" style="letter-spacing: 1px;">Product Two</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:27px 0">' +
@@ -3467,7 +3467,7 @@ var data_basic = {
 					'<div class="column third center">' +
 						'<div class="is-card is-dark-text shadow-1">' +
 							_tabs(1) + '<div class="margin-25">' +
-								_tabs(2) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/martin-widenka-555176-unsplash-sh1J33.jpg" style="border-radius: 500px">' +
+								_tabs(2) + '<img src="images/martin-widenka-555176-unsplash-sh1J33.jpg" style="border-radius: 500px">' +
 								_tabs(2) + '<h3 class="size-24" style="letter-spacing: 1px;">Product Three</h3>' +
 								_tabs(2) + '<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 								_tabs(2) + '<div style="margin:27px 0">' +
@@ -3541,19 +3541,19 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-7eFyL1.jpg">' +
+						'<img src="images/-7eFyL1.jpg">' +
 						'\n<h3 class="size-21">PRODUCT NAME</h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 						'\n<p><a href="#">BUY NOW</a></p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-09yZA2.jpg">' +
+						'<img src="images/-09yZA2.jpg">' +
 						'\n<h3 class="size-21">PRODUCT NAME</h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 						'\n<p><a href="#">BUY NOW</a></p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-Tmg8p2.jpg">' +
+						'<img src="images/-Tmg8p2.jpg">' +
 						'\n<h3 class="size-21">PRODUCT NAME</h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 						'\n<p><a href="#">BUY NOW</a></p>' +
@@ -3726,19 +3726,19 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/h-e-n-g-s-t-r-e-a-m-573432-unsplash-xt89A1.jpg" alt="">' +
+						'<img src="images/h-e-n-g-s-t-r-e-a-m-573432-unsplash-xt89A1.jpg" alt="">' +
 						'\n<h3 class="size-24" style="font-weight: 400;">PRODUCT NAME, <span style="color: rgb(136, 136, 136);">$129</span></h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 						'\n<p><a href="#" title="">BUY NOW</a></p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/sarah-dorweiler-357724-unsplash-4cfGV2.jpg" alt="">' +
+						'<img src="images/sarah-dorweiler-357724-unsplash-4cfGV2.jpg" alt="">' +
 						'\n<h3 class="size-24" style="font-weight: 400;">PRODUCT NAME, <span style="color: rgb(136, 136, 136);">$79</span></h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 						'\n<p><a href="#" title="">BUY NOW</a></p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/michael-frattaroli-234662-unsplash-QaduA1.jpg" alt="">' +
+						'<img src="images/michael-frattaroli-234662-unsplash-QaduA1.jpg" alt="">' +
 						'\n<h3 class="size-24" style="font-weight: 400;">PRODUCT NAME, <span style="color: rgb(136, 136, 136);">$49</span></h3>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>' +
 						'\n<p><a href="#" title="">BUY NOW</a></p>' +
@@ -3797,12 +3797,12 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-5v3uL1.jpg">' +
+						'<img src="images/-5v3uL1.jpg">' +
 					'</div>' +
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-C3XHH1.jpg">' +
+						'<img src="images/-C3XHH1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div style="padding-left: 40px">' +
@@ -4053,7 +4053,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-7Vn0R1.jpg">' +
+						'<img src="images/-7Vn0R1.jpg">' +
 						'\n<p style="color: rgb(136, 136, 136); font-weight: normal;">' +
 							_tabs(1) + 'PRODUCT NAME' +
 							_tabs(1) + '<br>' +
@@ -4061,7 +4061,7 @@ var data_basic = {
 						'\n</p>' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/nordwood-themes-473050-jFvLM1.jpg">' +
+						'<img src="images/nordwood-themes-473050-jFvLM1.jpg">' +
 						'\n<p style="color: rgb(136, 136, 136); font-weight: normal;">' +
 							_tabs(1) + 'PRODUCT NAME' +
 							_tabs(1) + '<br>' +
@@ -4069,7 +4069,7 @@ var data_basic = {
 						'\n</p>' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/toa-heftiba-448302-(1)-pXDhf1.jpg">' +
+						'<img src="images/toa-heftiba-448302-(1)-pXDhf1.jpg">' +
 						'\n<p style="color: rgb(136, 136, 136); font-weight: normal;">' +
 							_tabs(1) + 'PRODUCT NAME' +
 							_tabs(1) + '<br>' +
@@ -4077,7 +4077,7 @@ var data_basic = {
 						'\n</p>' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-p8OMT2.jpg">' +
+						'<img src="images/-p8OMT2.jpg">' +
 						'\n<p style="color: rgb(136, 136, 136); font-weight: normal;">' +
 							_tabs(1) + 'PRODUCT NAME' +
 							_tabs(1) + '<br>' +
@@ -4290,7 +4290,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/imac-Bz83W1.png">' +
+						'<img src="images/imac-Bz83W1.png">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div class="list">' +
@@ -4587,7 +4587,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s. Lorem ipsum dolor sit amet vivamus leo ante.</p>' +
 					'</div>' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/kara-michelle-544960-zjkQn1.jpg">' +
+						'<img src="images/kara-michelle-544960-zjkQn1.jpg">' +
 					'</div>' +
 					'<div class="column third">' +
 						'<p><i class="icon ion-android-options size-21" style="color: #bdc3c7"></i></p>' +
@@ -4673,7 +4673,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column third">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/aidan-hancock-440776-unsplash-8u7fo1.jpg">' +
+						'<img src="images/aidan-hancock-440776-unsplash-8u7fo1.jpg">' +
 					'</div>' +
 					'<div class="column third">' +
 						'<p><i class="icon ion-monitor size-21" style="color: #bdc3c7"></i></p>' +
@@ -4807,7 +4807,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s. Vivamus leo ante, consectetur sit amet.</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/workplace-1245776_1280-oxBIU1.jpg">' +
+						'<img src="images/workplace-1245776_1280-oxBIU1.jpg">' +
 					'</div>' +
 				'</div>' +
 				'<div class="row clearfix">' +
@@ -4817,7 +4817,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/desk-office-hero-workspace-(1)-V8F292.jpg">' +
+						'<img src="images/desk-office-hero-workspace-(1)-V8F292.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<p class="size-48 is-title1-48 is-title-bold" style="line-height: 1.4">02.</p>' +
@@ -5277,7 +5277,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s.</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-BwYjC1.jpg"></div>' +
+						'<img src="images/-BwYjC1.jpg"></div>' +
 					'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column full">' +
@@ -5286,7 +5286,7 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-FrSUb2.jpg">' +
+						'<img src="images/-FrSUb2.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<p style="letter-spacing: 2px;">STEP TWO</p>' +
@@ -6521,7 +6521,7 @@ var data_basic = {
 				'<div class="row clearfix">' +
 					'<div class="column third">' +
 						'<div style="padding-right:30px">' +
-							_tabs(1) + '<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-sGkY41.jpg">' +
+							_tabs(1) + '<img src="images/-sGkY41.jpg">' +
 						'\n</div>' +
 					'</div>' +
 					'<div class="column third">' +
@@ -6662,12 +6662,12 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is dummy text of the printing industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-UPno91.jpg">' +
+						'<img src="images/-UPno91.jpg">' +
 					'</div>' +
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-lkx4s2.jpg">' +
+						'<img src="images/-lkx4s2.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<p class="size-48 is-title1-48 is-title-bold" style="line-height: 1.4">95%</p>' +
@@ -6682,7 +6682,7 @@ var data_basic = {
 						'\n<p>Lorem Ipsum is dummy text of the printing industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-sJf643.jpg">' +
+						'<img src="images/-sJf643.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -7360,13 +7360,13 @@ var data_basic = {
 		    	'</div>' +
 		    	'<div class="row clearfix">' +
 		    		'<div class="column half center">' +
-		    			'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-F0dm51.jpg">' +
+		    			'<img src="images/-F0dm51.jpg">' +
 						'\n<p class="size-21" style="margin-bottom: 4px; letter-spacing: 2px;">MARY PALS</p>' +
 						'\n<p style="border-bottom: 1px solid #000; width: 40px; display: inline-block; margin-top: 0"></p>' +
 						'\n<p style="color: rgb(119, 119, 119);">Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 					'</div>' +
 					'<div class="column half center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-x5GRp1.jpg">' +
+						'<img src="images/-x5GRp1.jpg">' +
 						'\n<p class="size-21" style="margin-bottom: 4px; letter-spacing: 2px;">WILMA FINN</p>' +
 						'\n<p style="border-bottom: 1px solid #000; width: 40px; display: inline-block; margin-top: 0"></p>' +
 						'\n<p style="color: rgb(119, 119, 119);">Lorem Ipsum is simply dummy text of the printing industry.</p>' +
@@ -7391,11 +7391,11 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-S0R1k1.jpg">' +
+						'<img src="images/-S0R1k1.jpg">' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry. — Nelson Sand</p>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-QqxYJ2.jpg">' +
+						'<img src="images/-QqxYJ2.jpg">' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry. — Karin Sparks</p>' +
 					'</div>' +
 				'</div>'
@@ -7407,7 +7407,7 @@ var data_basic = {
 		    'html':
 		    	'<div class="row clearfix">' +
 		    		'<div class="column third center">' +
-		    			'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-F6TCZ1.jpg">' +
+		    			'<img src="images/-F6TCZ1.jpg">' +
 		    		'</div>' +
 		    		'<div class="column two-third">' +
 		    			'<div style="margin-top:10px"><i class="icon ion-quote size-24" style="color: #888888"></i></div>' +
@@ -7423,7 +7423,7 @@ var data_basic = {
 		    'html':
 		    	'<div class="row clearfix">' +
 		    		'<div class="column third center">' +
-		    			'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-Q1XSO1.jpg" style="border-radius: 500px">' +
+		    			'<img src="images/-Q1XSO1.jpg" style="border-radius: 500px">' +
 		    		'</div>' +
 		    		'<div class="column two-third">' +
 		    			'<div style="margin-top:10px"><i class="icon ion-quote size-24" style="color: #888888"></i></div>' +
@@ -7486,7 +7486,7 @@ var data_basic = {
 		    	'</div>' +
 		    	'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-akB4h1.jpg">' +
+						'<img src="images/-akB4h1.jpg">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div class="quote">' +
@@ -7510,7 +7510,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-R79NY2.jpg">' +
+						'<img src="images/-R79NY2.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -7531,7 +7531,7 @@ var data_basic = {
 		    	'</div>' +
 		    	'<div class="row clearfix">' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-ybeSl1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/-ybeSl1.jpg" style="border-radius: 500px;">' +
 					'</div>' +
 					'<div class="column half">' +
 						'<div class="quote">' +
@@ -7555,7 +7555,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-KUCDN4.jpg" style="border-radius: 500px;">' +
+						'<img src="images/-KUCDN4.jpg" style="border-radius: 500px;">' +
 					'</div>' +
 				'</div>'
 		},
@@ -7577,21 +7577,21 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/watch-1663246_1920-8wuCM1.jpg">' +
+						'<img src="images/watch-1663246_1920-8wuCM1.jpg">' +
 						'\n<div class="spacer height-20"></div>' +
 						'\n<i class="icon ion-quote size-24"></i>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 						'\n<p class="size-14">by Your Name</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-frUlS1.jpg">' +
+						'<img src="images/-frUlS1.jpg">' +
 						'\n<div class="spacer height-20"></div>' +
 						'\n<i class="icon ion-quote size-24"></i>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
 						'\n<p class="size-14">by Your Name</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-RXypm2.jpg">' +
+						'<img src="images/-RXypm2.jpg">' +
 						'\n<div class="spacer height-20"></div>' +
 						'\n<i class="icon ion-quote size-24"></i>' +
 						'\n<p>Lorem Ipsum is simply dummy text of the printing industry.</p>' +
@@ -7678,17 +7678,17 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/noah-buscher-548633-ExLNF1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/noah-buscher-548633-ExLNF1.jpg" style="border-radius: 500px;">' +
 						'\n<p style="color: #bdc3c7"><i class="icon ion-android-hangout size-32"></i></p>' +
 						'\n<p class="size-16">Lorem Ipsum is simply dummy text of the printing industry. — Dave Smith</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/icons8-team-355990-Voloz1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/icons8-team-355990-Voloz1.jpg" style="border-radius: 500px;">' +
 						'\n<p style="color: #bdc3c7"><i class="icon ion-android-hangout size-32"></i></p>' +
 						'\n<p class="size-16">Lorem Ipsum is simply dummy text of the printing industry. — Clara Wang</p>' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/pexels-photo-girl-zZWwv1.jpg" style="border-radius: 500px;">' +
+						'<img src="images/pexels-photo-girl-zZWwv1.jpg" style="border-radius: 500px;">' +
 						'\n<p style="color: #bdc3c7"><i class="icon ion-android-hangout size-32"></i></p>' +
 						'\n<p class="size-16">Lorem Ipsum is simply dummy text of the printing industry. — Jane Doe</p>' +
 					'</div>' +
@@ -7734,7 +7734,7 @@ var data_basic = {
 		    'html':
 		    	'<div class="row clearfix">' +
 		    		'<div class="column half">' +
-		    			'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-6PDKL1.jpg">' +
+		    			'<img src="images/-6PDKL1.jpg">' +
 		    		'</div>' +
 		    		'<div class="column half">' +
 		    			'<div style="padding-left: 10px">' +
@@ -7761,7 +7761,7 @@ var data_basic = {
 						'\n</div>' +
 					'</div>' +
 					'<div class="column half">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-OWu2H1.jpg">' +
+						'<img src="images/-OWu2H1.jpg">' +
 					'</div>' +
 				'</div>'
 		},
@@ -7772,7 +7772,7 @@ var data_basic = {
 		    'html':
 		    	'<div class="row clearfix">' +
 		    		'<div class="column center full">' +
-		    			'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-TK4An1.jpg" style="border-radius: 500px">' +
+		    			'<img src="images/-TK4An1.jpg" style="border-radius: 500px">' +
 		    		'</div>' +
 		    	'</div>' +
 		    	'<div class="row clearfix">' +
@@ -7805,16 +7805,16 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/creative.png">' +
+						'<img src="images/creative.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/light-studio.png">' +
+						'<img src="images/light-studio.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/infinitech.png">' +
+						'<img src="images/infinitech.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/design-firm.png">' +
+						'<img src="images/design-firm.png">' +
 					'</div>' +
 				'</div>'
 		},
@@ -7836,19 +7836,19 @@ var data_basic = {
 				'<div class="row clearfix">' +
 					'<div class="column full center">' +
 						'<div class="center" style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/sitepro.png">' +
+							'<img src="images/sitepro.png">' +
 						'</div>' +
 						'<div class="center" style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/steady.png">' +
+							'<img src="images/steady.png">' +
 						'</div>' +
 						'<div class="center" style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/creative.png">' +
+							'<img src="images/creative.png">' +
 						'</div>' +
 						'<div class="center" style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/light-studio.png">' +
+							'<img src="images/light-studio.png">' +
 						'</div>' +
 						'<div class="center" style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/infinitech.png">' +
+							'<img src="images/infinitech.png">' +
 						'</div>' +
 					'</div>' +
 				'</div>'
@@ -7873,19 +7873,19 @@ var data_basic = {
 				'<div class="row clearfix">' +
 					'<div class="column full center">' +
 						'<div style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/creative.png">' +
+							'<img src="images/creative.png">' +
 						'</div>' +
 						'<div style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/steady.png">' +
+							'<img src="images/steady.png">' +
 						'</div>' +
 						'<div style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/light-studio.png">' +
+							'<img src="images/light-studio.png">' +
 						'</div>' +
 						'<div style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/sitepro.png">' +
+							'<img src="images/sitepro.png">' +
 						'</div>' +
 						'<div style="display:inline-block;width:18%">' +
-							'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/design-firm.png">' +
+							'<img src="images/design-firm.png">' +
 						'</div>' +
 					'</div>' +
 				'</div>'
@@ -7908,16 +7908,16 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column fourth">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/creative.png">' +
+						'<img src="images/creative.png">' +
 					'</div>' +
 					'<div class="column fourth">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/light-studio.png">' +
+						'<img src="images/light-studio.png">' +
 					'</div>' +
 					'<div class="column fourth">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/sitepro.png">' +
+						'<img src="images/sitepro.png">' +
 					'</div>' +
 					'<div class="column fourth">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/infinitech.png">' +
+						'<img src="images/infinitech.png">' +
 					'</div>' +
 				'</div>'
 		},
@@ -7931,13 +7931,13 @@ var data_basic = {
 						'<h2>AS FEATURED ON</h2>' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/onesight.png">' +
+						'<img src="images/onesight.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/mmedia.png">' +
+						'<img src="images/mmedia.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/digitalmag.png">' +
+						'<img src="images/digitalmag.png">' +
 					'</div>' +
 				'</div>'
 		},
@@ -7958,16 +7958,16 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column fourth">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/digitalmag.png">' +
+						'<img src="images/digitalmag.png">' +
 					'</div>' +
 					'<div class="column fourth">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/upclick.png">' +
+						'<img src="images/upclick.png">' +
 					'</div>' +
 					'<div class="column fourth">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/onesight.png">' +
+						'<img src="images/onesight.png">' +
 					'</div>' +
 					'<div class="column fourth">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/mmedia.png">' +
+						'<img src="images/mmedia.png">' +
 					'</div>' +
 				'</div>'
 		},
@@ -7989,13 +7989,13 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/upclick.png">' +
+						'<img src="images/upclick.png">' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/mmedia.png">' +
+						'<img src="images/mmedia.png">' +
 					'</div>' +
 					'<div class="column third center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/worldwide.png">' +
+						'<img src="images/worldwide.png">' +
 					'</div>' +
 				'</div>'
 		},
@@ -8016,30 +8016,30 @@ var data_basic = {
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/upclick.png">' +
+						'<img src="images/upclick.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/digitalmag.png">' +
+						'<img src="images/digitalmag.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/mmedia.png">' +
+						'<img src="images/mmedia.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/bbuzz.png">' +
+						'<img src="images/bbuzz.png">' +
 					'</div>' +
 				'</div>' +
 				'<div class="row clearfix">' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/prosource.png">' +
+						'<img src="images/prosource.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/light-studio.png">' +
+						'<img src="images/light-studio.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/nett.png">' +
+						'<img src="images/nett.png">' +
 					'</div>' +
 					'<div class="column fourth center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/worldwide.png">' +
+						'<img src="images/worldwide.png">' +
 					'</div>' +
 				'</div>'
 		},
@@ -8117,7 +8117,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/lost-2747289-ThbrT1.png">' +
+						'<img src="images/lost-2747289-ThbrT1.png">' +
 						'\n<p class="size-21" style="letter-spacing: 2px;">Sorry. The page you are looking for could not be found.</p>' +
 					'</div>' +
 				'</div>' +
@@ -8872,7 +8872,7 @@ var data_basic = {
 		    'html':
 				'<div class="row clearfix">' +
 					'<div class="column full center">' +
-						'<img src="https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/-5TpV91.jpg">' +
+						'<img src="images/-5TpV91.jpg">' +
 					'</div>' +
 				'</div>' +
 				'<div class="row clearfix">' +
