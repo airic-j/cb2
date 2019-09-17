@@ -100,7 +100,7 @@ ContentBuilder.js ver.3.6
             snippetHandle: true,
             snippetOpen: false,
             snippetPageSliding: true,
-            scriptPath: '', //if set, will replace the currentScriptPath()
+            scriptPath: 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/images/', //if set, will replace the currentScriptPath()
             builderMode: '',
             columnTool: true,
             elementTool: true,
@@ -341,7 +341,8 @@ ContentBuilder.js ver.3.6
                     else if(btn=='tags') html_rte += customtag_button;
                     else if(btn=='removeformat') html_rte += '<button title="' + out('Clean') + '" class="cell-clean"><svg class="is-icon-flex" style="fill:rgba(0, 0, 0, 0.8);width:11px;height:11px;"><use xlink:href="#icon-clean"></use></svg></button>';
                     else if(btn=='font') html_rte += '<button title="' + out('Font') + '" class="cell-fontfamily"><span style="font-family:serif;font-size:20px;text-transform:none;display:inline-block;margin-top: -4px;">a</span></button>';
-                    else if(btn=='image') html_rte += '<button title="' + out('Image') + '" class="cell-image"><svg class="is-icon-flex" style="width:13px;height:13px;"><use xlink:href="#ion-image"></use></svg></button>';
+                    //EJedit
+                    // else if(btn=='image') html_rte += '<button title="' + out('Image') + '" class="cell-image"><svg class="is-icon-flex" style="width:13px;height:13px;"><use xlink:href="#ion-image"></use></svg></button>';
                     else if(btn=='gridtool') html_rte += '<button title="' + out('Grid Tool') + '" class="cell-grideditor"><svg class="is-icon-flex" style="margin-right:-3px;fill:rgba(0, 0, 0, 0.65);width:17px;height:17px;"><use xlink:href="#ion-grid"></use></svg></button>';
                     else if(btn=='html') html_rte += '<button title="' + out('HTML') + '" class="cell-viewhtml"><svg class="is-icon-flex" style="margin-right:-3px;fill:rgba(0, 0, 0, 0.65);width:14px;height:14px;"><use xlink:href="#ion-ios-arrow-left"></use></svg><svg class="is-icon-flex" style="margin-left:-2px;fill:rgba(0, 0, 0, 0.65);width:14px;height:14px;"><use xlink:href="#ion-ios-arrow-right"></use></svg></button>';
                     else if(btn=='preferences') html_rte += '<button title="' + out('Preferences') + '" class="cell-preferences"><svg class="is-icon-flex" style="fill:rgba(0, 0, 0, 0.7);width:14px;height:14px;"><use xlink:href="#ion-wrench"></use></svg></button>';
@@ -359,7 +360,8 @@ ContentBuilder.js ver.3.6
                     if(btn=='createlink') html_rtemore += '<button title="' + out('Hyperlink') + '" class="cell-link"><svg class="is-icon-flex" style="fill:rgba(0, 0, 0, 0.65);width:16px;height:16px;"><use xlink:href="#ion-link"></use></svg></button>';
                     else if(btn=='icon') html_rtemore += '<button title="' + out('Icon') + '" class="cell-icon"><svg class="is-icon-flex" style="fill:rgb(0, 0, 0);width:14px;height:14px;"><use xlink:href="#ion-android-happy"></use></svg></button>';
                     else if(btn=='removeformat') html_rtemore += '<button title="' + out('Clean') + '" class="cell-clean"><svg class="is-icon-flex" style="fill:rgba(0, 0, 0, 0.8);width:11px;height:11px;"><use xlink:href="#icon-clean"></use></svg></button>';
-                    else if(btn=='image') html_rtemore += '<button title="' + out('Image') + '" class="cell-image"><svg class="is-icon-flex" style="width:13px;height:13px;"><use xlink:href="#ion-image"></use></svg></button>';
+                    //EJedit
+                    // else if(btn=='image') html_rtemore += '<button title="' + out('Image') + '" class="cell-image"><svg class="is-icon-flex" style="width:13px;height:13px;"><use xlink:href="#ion-image"></use></svg></button>';
                     else if(btn=='gridtool') html_rtemore += '<button title="' + out('Grid Tool') + '" class="cell-grideditor"><svg class="is-icon-flex" style="margin-right:-3px;fill:rgba(0, 0, 0, 0.65);width:17px;height:17px;"><use xlink:href="#ion-grid"></use></svg></button>';
                     else if(btn=='html') html_rtemore += '<button title="' + out('HTML') + '" class="cell-viewhtml"><svg class="is-icon-flex" style="margin-right:-3px;fill:rgba(0, 0, 0, 0.65);width:14px;height:14px;"><use xlink:href="#ion-ios-arrow-left"></use></svg><svg class="is-icon-flex" style="margin-left:-2px;fill:rgba(0, 0, 0, 0.65);width:14px;height:14px;"><use xlink:href="#ion-ios-arrow-right"></use></svg></button>';
                     else if(btn=='preferences') html_rtemore += '<button title="' + out('Preferences') + '" class="cell-preferences"><svg class="is-icon-flex" style="fill:rgba(0, 0, 0, 0.7);width:14px;height:14px;"><use xlink:href="#ion-wrench"></use></svg></button>';
@@ -590,8 +592,9 @@ ContentBuilder.js ver.3.6
                 '' +
                 '<div id="divImageTool" class="is-tool" style="background:rgba(0, 0, 0, 0.15);border:transparent 1px solid;">' +
                     '<div class="image-embed" style="width:40px;height:40px;overflow:hidden;">' +
-                        '<div style="position:absolute;width:100%;height:100%;"><svg class="is-icon-flex" style="position: absolute;top: 13px;left: 15px;width: 14px;height: 14px;fill:rgb(255,255,255);"><use xlink:href="#ion-image"></use></svg></div>' +
-                        '<input title="' + out('Change Image') + '" id="fileEmbedImage" type="file" accept="image/*" style="position:absolute;top:0px;left:0;width:100%;height:40px;opacity: 0;cursor: pointer;"/>' +
+                        //EJedit
+                        // '<div style="position:absolute;width:100%;height:100%;"><svg class="is-icon-flex" style="position: absolute;top: 13px;left: 15px;width: 14px;height: 14px;fill:rgb(255,255,255);"><use xlink:href="#ion-image"></use></svg></div>' +
+                        // '<input title="' + out('Change Image') + '" id="fileEmbedImage" type="file" accept="image/*" style="position:absolute;top:0px;left:0;width:100%;height:40px;opacity: 0;cursor: pointer;"/>' +
                     '</div>' +
                     '<button title="' + out('Link') + '" class="image-link" style="width:40px;height:40px;background:none;color:#fff;"><svg class="is-icon-flex" style="fill:rgba(255, 255, 255, 0.95);width:17px;height:17px;"><use xlink:href="#ion-link"></use></svg></button>' +
                     '<button title="' + out('Edit') + '" class="image-edit" style="width:40px;height:40px;background:none;color:#fff;"><svg class="is-icon-flex" style="fill:rgb(255,255,255);width:14px;height:14px;"><use xlink:href="#ion-android-create"></use></svg></button>' +
@@ -703,6 +706,9 @@ ContentBuilder.js ver.3.6
                             '<input class="input-newwindow" type="checkbox" /> ' + out('Open New Window') + '&nbsp;' +
                         '</label>' +
                         '<div style="text-align:right">' +
+                        //EJedit
+                            // '<button id="testClose" title="test">Test</button>' +
+                        //EJedit
                             '<button title="' + out('Cancel') + '" class="input-cancel classic-secondary">' + out('Cancel') + '</button>' +
                             '<button title="' + out('Ok') + '" class="input-ok classic-primary">' + out('Ok') + '</button>' +
                         '</div>' +
@@ -2415,6 +2421,9 @@ ContentBuilder.js ver.3.6
 
                         var html_snippets = '' +
                             '<div style="position:absolute;top:0;right:0;padding: 0;width:100%;z-index:2;">' +
+                                //EJedit
+                                '<button class="testClose">close</button>' +
+                                //EJedit
                                 '<select id="selSnippetCat">' +
                                     html_catselect +
                                 '</select>' +
@@ -2475,7 +2484,10 @@ ContentBuilder.js ver.3.6
                         var thumb = this.thumbnail;
 
                         if (this.category == defaultcat) {
-                            jQuery('.is-design-list').append('<div data-id="' + this.id + '" data-cat="' + this.category + '"><img src="' + assetPath + thumb + '"></div>');
+                            //EJedit
+                            // jQuery('.is-design-list').append('<div data-id="' + this.id + '" data-cat="' + this.category + '"><img src="' + assetPath + thumb + '"></div>');
+                            jQuery('.is-design-list').append('<div data-id="' + this.id + '" data-cat="' + this.category + '"><img src="' + 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/' + thumb + '"></div>');
+                            //EJedit
                         }
 
                         nIndex++;
@@ -2527,7 +2539,11 @@ ContentBuilder.js ver.3.6
                                 var thumb = this.thumbnail;
 
                                 if (cat == this.category) {
-                                    jQuery('.is-design-list').append('<div data-id="' + this.id + '" data-cat="' + this.category + '"><img src="' + assetPath + thumb + '"></div>');
+                                    //EJedit
+                                    //jQuery('.is-design-list').append('<div data-id="' + this.id + '" data-cat="' + this.category + '"><img src="' + assetPath + thumb + '"></div>');
+
+                                    jQuery('.is-design-list').append('<div data-id="' + this.id + '" data-cat="' + this.category + '"><img src="' + 'https://cdn.jsdelivr.net/gh/rabbitholesystems/contentbuilder/ContentBuilder/assets/minimalist-blocks/' + thumb + '"></div>');
+
                                 }
 
                             });
@@ -3258,6 +3274,7 @@ ContentBuilder.js ver.3.6
                 $modal.find('.input-ok').off('click');
                 $modal.find('.input-ok').on('click', function (e) {
 
+
                     //Save for Undo
                     plugin.saveForUndo();
 
@@ -3434,6 +3451,9 @@ ContentBuilder.js ver.3.6
 
             jQuery('.cell-add-image').off('click');
             jQuery('.cell-add-image').on('click', function (e) {
+
+
+
                 jQuery("#divRowAddTool").css("opacity", "0");
                 plugin.addContent('<img onload="_imgLoaded(this)" src="' + scriptPath + 'example.jpg">');
                 /*setTimeout(function () {
@@ -9263,6 +9283,7 @@ ContentBuilder.js ver.3.6
             jQuery('.cell-image').off('click');
             jQuery('.cell-image').on('click', function (e) {
 
+
                 //save selection
                 //plugin.saveSelection();
 
@@ -9730,8 +9751,15 @@ ContentBuilder.js ver.3.6
                 }
             });
 
-            jQuery('#divImageTool .image-edit').off('click');
+            //EJEdit
+            // nothing changed -- this is where you're attempting to close the modal on clicking medialibrary select
+
+            // EJedit
             jQuery('#divImageTool .image-edit').on('click', function (e) {
+            jQuery('#divImageTool .image-edit').off('click');
+            // jQuery('#testClose').on('click', function (e) {
+            // jQuery('#testClose').off('click');
+            //EJedit
                 var $img = jQuery("#divImageTool").data('active');
 
                 //prepare
@@ -9787,13 +9815,13 @@ ContentBuilder.js ver.3.6
                     plugin.hideModal($modal);
                 });
             });
-
+            //EJedit
             jQuery('#divImageTool .image-link').off('click');
             jQuery('#divImageTool .image-link').on('click', function (e) {
 
                 // EJedit
                 console.log('image link clicked!');
-                // bubble_fn_openPopup();
+                bubble_fn_openPopup();
                 // EJedit
 
                 var sFunc = (plugin.settings.onImageSettingClick+'').replace( /\s/g, '');
@@ -9878,8 +9906,17 @@ ContentBuilder.js ver.3.6
 
                 $modal.find('.input-src').trigger('focus'); //must be used here, because this will clear selection => text (from getSelected()) returns empty
 
+                //EJedit
                 $modal.find('.input-ok').off('click');
                 $modal.find('.input-ok').on('click', function (e) {
+                // $('.testClose').off('click');
+                // $('.testClose').on('click', function (e) {
+                //EJedit
+
+                  //EJedit
+                  console.log('close that modal')
+                  bubble_fn_closePopup();
+                  //EJedit
 
                     //Save for Undo
                     plugin.saveForUndo();
