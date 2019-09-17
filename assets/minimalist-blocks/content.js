@@ -18,7 +18,7 @@ function _path() {
 
 //EJedit
 //var _snippets_path = _path();
-var _snippets_path = ''
+var _snippets_path = '';
 
 
 var data_basic = {
