@@ -16,7 +16,9 @@ function _path() {
     return currentScript.replace(currentScriptFile, '');
 }
 
-var _snippets_path = _path();
+//EJedit
+//var _snippets_path = _path();
+var _snippets_path = ''
 
 
 var data_basic = {
