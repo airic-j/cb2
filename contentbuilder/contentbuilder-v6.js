@@ -595,9 +595,8 @@ ContentBuilder.js ver.3.6
                       //'<div class="image-embed" style="width:40px;height:40px;overflow:hidden;">' +
                         // '<div style="position:absolute;width:100%;height:100%;"><svg class="is-icon-flex" style="position: absolute;top: 13px;left: 15px;width: 14px;height: 14px;fill:rgb(255,255,255);"><use xlink:href="#ion-image"></use></svg></div>' +
                         // '<input title="' + out('Change Image') + '" id="fileEmbedImage" type="file" accept="image/*" style="position:absolute;top:0px;left:0;width:100%;height:40px;opacity: 0;cursor: pointer;"/>' +
-                      //'</div>' +
-                    //EJedit
-                    '<button title="' + out('Link') + '" class="image-link" style="width:40px;height:40px;background:none;color:#fff;"><svg class="is-icon-flex" style="fill:rgba(255, 255, 255, 0.95);width:17px;height:17px;"><use xlink:href="#ion-images"></use></svg></button>' +
+                  // '</div>' +
+                    '<button title="' + out('Link') + '" class="image-link" style="width:40px;height:40px;background:none;color:#fff;"><svg class="is-icon-flex" style="fill:rgba(255, 255, 255, 0.95);width:17px;height:17px;"><use xlink:href="#ion-image"></use></svg></button>' +
                     '<button title="' + out('Edit') + '" class="image-edit" style="width:40px;height:40px;background:none;color:#fff;"><svg class="is-icon-flex" style="fill:rgb(255,255,255);width:14px;height:14px;"><use xlink:href="#ion-android-create"></use></svg></button>' +
                 '</div>' +
                 '<div id="divImageProgress">' +
